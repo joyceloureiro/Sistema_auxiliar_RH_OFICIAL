@@ -14,7 +14,7 @@ inicio do sistema auxiliar de RH
   
 **abaixo segue uma tabela especificando as funcões que cosntam no programa xxx:**
 
-| FUNCOES                   | EXEMPLECIFICAÇÂO 
+| FUNÇÕES                   | EXEMPLO 
 | --------------------------|:----------------------------------------------------------------------------------------------------------------------------:|
 | **INSS**                  | Calcula o percentual do INSS a ser descontado em cima do salario bruto do funcionario;                                       |
 | **IRRF**                  | Calcula o percentual do IRRF a ser descontado em cima do salario bruto do funcionario;                                       |
