@@ -1,4 +1,4 @@
-# sistema_integrado_de_verificacao_do_trabalhador
+# sistema_auxiliar_RH
 
 ![Espécies-de-Trabalhadores](https://user-images.githubusercontent.com/128190811/236585355-656daf86-aea6-4a5a-8e14-c60045759e46.jpg)
 
