@@ -1,6 +1,6 @@
 # sistema_integrado_de_verificacao_do_trabalhador
 
-[logo]: https://www.google.com/url?sa=i&url=https%3A%2F%2Frogeriogomez.com.br%2Faprenda-vinte-e-uma-especies-de-trabalhadores%2F&psig=AOvVaw2oNwNTqLmbJrkKDs6gyDfo&ust=1683415615943000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCMCqvoaq3_4CFQAAAAAdAAAAABAD " "
+![Espécies-de-Trabalhadores](https://user-images.githubusercontent.com/128190811/236585355-656daf86-aea6-4a5a-8e14-c60045759e46.jpg)
 
 inicio do sistema auxiliar de RH
 ===============================
