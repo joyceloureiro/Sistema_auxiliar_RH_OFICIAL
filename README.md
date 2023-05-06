@@ -92,6 +92,46 @@ Inicio do sistema auxiliar de RH
 
 - Pergunta os dados dos funcionarios como: email, CEP, nome etc... e em seguida os guarda no arquivo "banco de dados.txt" 
 
+#### *REFERÊNCIAS* ####
+************************************
+
+[Calculo INSS](https://meutudo.com.br/blog/calculo-inss/)
+
+https://www.coalize.com.br/calculadora-de-inss-resultado
+
+https://www.calcule.net/trabalhista/calculo-imposto-de-renda-irrf/#topnav
+
+https://www.pontotel.com.br/multa-fgts/
+
+https://www.youtube.com/watch?v=Jjo0PvauNJg
+
+https://folhacerta.com/o-que-e-adicional-de-periculosidade-e-como-calcular/#:~:text=Na%20pr%C3%A1tica%2C%20se%20um%20colaborador,salarial%2C%20n%C3%A3o%20de%20car%C3%A1ter%20indenizat%C3%B3rio.
+
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+https://www.idinheiro.com.br/calculadoras/calculadora-de-ferias/
+
+https://nicoliadvogados.adv.br/previdenciario/inss-e-aplicado-sobre-horas-
+extras/#:~:text=Em%20suma%2C%20deve%20ser%20feito,STJ%20%C3%A9%20favor%C
+3%A1vel%20aos%20segurados
+
+https://ibdec.net/geral/inss-instituto-nacional-da-seguridade-
+social#:~:text=O%20desconto%20do%20INSS%20incide,em%20lei%20pela%20previd%C3
+%AAncia%20social.
+
+https://economia.uol.com.br/imposto-de-renda/noticias/redacao/2023/04/06/tabela-do-
+imposto-de-renda-2023-veja-faixas-aliquotas-e-como-calcular.htm
+
+https://www.calcule.net/trabalhista/calculo-imposto-de-renda-irrf/#topnav
+
+https://www.calcule.net/trabalhista/calculo-de-inss/
+
+https://tangerino.com.br/blog/calculo-do-fgts-passo-a-
+passo/#:~:text=FGTS%20em%202022%3F-
+,O%20que%20%C3%A9%20o%20C%C3%A1lculo%20do%20FGTS%3F,a%20al%C3%AD
+quota%20%C3%A9%20de%202%25.
+
+
 
 
 
