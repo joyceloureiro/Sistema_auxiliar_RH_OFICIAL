@@ -111,23 +111,17 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 [Calculo FERIAS](https://www.idinheiro.com.br/calculadoras/calculadora-de-ferias/)
 
-[Calculo INSS](https://nicoliadvogados.adv.br/previdenciario/inss-e-aplicado-sobre-horas-
-extras/#:~:text=Em%20suma%2C%20deve%20ser%20feito,STJ%20%C3%A9%20favor%C
-3%A1vel%20aos%20segurados)
+[Calculo INSS](https://nicoliadvogados.adv.br/previdenciario/inss-e-aplicado-sobre-horas-extras/#:~:text=Em%20suma%2C%20deve%20ser%20feito,STJ%20%C3%A9%20favor%C3%A1vel%20aos%20segurados)
 
-[Calculo INSS](https://ibdec.net/geral/inss-instituto-nacional-da-seguridade-
-social#:~:text=O%20desconto%20do%20INSS%20incide,em%20lei%20pela%20previd%C3
-%AAncia%20social.)
+[Calculo INSS](https://ibdec.net/geral/inss-instituto-nacional-da-seguridade-social#:~:text=O%20desconto%20do%20INSS%20incide,em%20lei%20pela%20previd%C3%AAncia%20social.)
 
-[Calculo IRRF](https://economia.uol.com.br/imposto-de-renda/noticias/redacao/2023/04/06/tabela-do-
-imposto-de-renda-2023-veja-faixas-aliquotas-e-como-calcular.htm)
+[Calculo IRRF](https://economia.uol.com.br/imposto-de-renda/noticias/redacao/2023/04/06/tabela-do-imposto-de-renda-2023-veja-faixas-aliquotas-e-como-calcular.htm)
 
 [Calculo irrf](https://www.calcule.net/trabalhista/calculo-imposto-de-renda-irrf/#topnav)
 
 https://www.calcule.net/trabalhista/calculo-de-inss/
 
-[Calculo FGTS](https://tangerino.com.br/blog/calculo-do-fgts-passo-a-passo/#:~:text=FGTS%20em%202022%3F-,O%20que%20%C3%A9%20o%20C%C3%A1lculo%20do%20FGTS%3F,a%20al%C3%AD
-quota%20%C3%A9%20de%202%25.)
+[Calculo FGTS](https://tangerino.com.br/blog/calculo-do-fgts-passo-a-passo/#:~:text=FGTS%20em%202022%3F-,O%20que%20%C3%A9%20o%20C%C3%A1lculo%20do%20FGTS%3F,a%20al%C3%ADquota%20%C3%A9%20de%202%25.)
 
 [Calculo FGTS](https://calculomania.com/calculo-de-adicional-noturno/)
 
