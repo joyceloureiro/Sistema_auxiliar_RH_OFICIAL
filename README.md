@@ -2,7 +2,7 @@
 
 ![Espécies-de-Trabalhadores](https://user-images.githubusercontent.com/128190811/236585355-656daf86-aea6-4a5a-8e14-c60045759e46.jpg)
 
-inicio do sistema auxiliar de RH
+Inicio do sistema auxiliar de RH
 ===============================
 
   Esse sistema foi voltado para atender tanto as necessidades do empregador, como do empregado. Calculando de maneira eficiente descontos e adicionais que veem ser somados ao salario do trabalhador. já para a instituição, o programa calcula diversos adicionais e descontos que possam recair sobre o sálario final do funcionario, como por exemplo as horas extras trabalhadas no mes, com esse sistema integrado a margem de erro é reduzida,pois um software que calcula o percentual a ser pago ao trabalhador. Calcula tambem o extrato do funcionario e consta com um sistema de banco de dados para guarda dados do trabalhador e facilitar a vida do empregador.
@@ -12,7 +12,7 @@ inicio do sistema auxiliar de RH
   
   
   
-**abaixo segue uma tabela especificando as funcões que cosntam no programa xxx:**
+**Abaixo segue uma tabela especificando as funcões que constam no programa sistema no RH:**
 
 | FUNÇÕES                   | EXEMPLO 
 | --------------------------|:----------------------------------------------------------------------------------------------------------------------------:|
