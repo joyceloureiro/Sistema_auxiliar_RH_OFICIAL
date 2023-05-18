@@ -16,5 +16,10 @@ namespace iRh.Windows.simuladores
         {
             InitializeComponent();
         }
+
+        private void frmBeneficioValeTransporte_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

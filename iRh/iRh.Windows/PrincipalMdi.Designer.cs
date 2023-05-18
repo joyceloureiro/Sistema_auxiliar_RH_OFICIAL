@@ -28,21 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PrincipalMdi));
             this.menuPrincipal = new System.Windows.Forms.MenuStrip();
             this.funcionariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.simuladoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cadrastroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.descontoDeINSSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.descontoDeIRRFToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuDescontoInss = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuDescontoIrrf = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.beneficioDeFeriásToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.beneficioValeTransporteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.beneficioSeguroDesempregoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.beneficioPISToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.beneficioAdicionalNoturnoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.beneficioDepositoFGTSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.beneficioHoraExtraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.beneficioPericulosidadeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuBeneficioAdicionalFerias = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuBeneficioValeTransporte = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuBeneficioSeguroDesemprego = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuBeneficioPis = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuBeneficioAdicionalNoturnu = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuBeneficioDepositoFgts = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuBeneficioHoraExtra = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuBeneficioPericulosidade = new System.Windows.Forms.ToolStripMenuItem();
             this.menuPrincipal.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -62,23 +63,23 @@
             this.funcionariosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.cadrastroToolStripMenuItem});
             this.funcionariosToolStripMenuItem.Name = "funcionariosToolStripMenuItem";
-            this.funcionariosToolStripMenuItem.Size = new System.Drawing.Size(87, 20);
-            this.funcionariosToolStripMenuItem.Text = "Funcionários";
+            this.funcionariosToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
+            this.funcionariosToolStripMenuItem.Text = "Cadrastros";
             // 
             // simuladoresToolStripMenuItem
             // 
             this.simuladoresToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.descontoDeINSSToolStripMenuItem,
-            this.descontoDeIRRFToolStripMenuItem,
+            this.menuDescontoInss,
+            this.menuDescontoIrrf,
             this.toolStripSeparator1,
-            this.beneficioAdicionalNoturnoToolStripMenuItem,
-            this.beneficioDeFeriásToolStripMenuItem,
-            this.beneficioPISToolStripMenuItem,
-            this.beneficioSeguroDesempregoToolStripMenuItem,
-            this.beneficioValeTransporteToolStripMenuItem,
-            this.beneficioDepositoFGTSToolStripMenuItem,
-            this.beneficioHoraExtraToolStripMenuItem,
-            this.beneficioPericulosidadeToolStripMenuItem});
+            this.menuBeneficioAdicionalNoturnu,
+            this.menuBeneficioAdicionalFerias,
+            this.menuBeneficioPis,
+            this.menuBeneficioSeguroDesemprego,
+            this.menuBeneficioValeTransporte,
+            this.menuBeneficioDepositoFgts,
+            this.menuBeneficioHoraExtra,
+            this.menuBeneficioPericulosidade});
             this.simuladoresToolStripMenuItem.Name = "simuladoresToolStripMenuItem";
             this.simuladoresToolStripMenuItem.Size = new System.Drawing.Size(83, 20);
             this.simuladoresToolStripMenuItem.Text = "simuladores";
@@ -87,72 +88,72 @@
             // 
             this.cadrastroToolStripMenuItem.Name = "cadrastroToolStripMenuItem";
             this.cadrastroToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.cadrastroToolStripMenuItem.Text = "cadrastro";
+            this.cadrastroToolStripMenuItem.Text = "Funcionarios";
             // 
-            // descontoDeINSSToolStripMenuItem
+            // menuDescontoInss
             // 
-            this.descontoDeINSSToolStripMenuItem.Name = "descontoDeINSSToolStripMenuItem";
-            this.descontoDeINSSToolStripMenuItem.Size = new System.Drawing.Size(233, 22);
-            this.descontoDeINSSToolStripMenuItem.Text = "Desconto de INSS";
+            this.menuDescontoInss.Name = "menuDescontoInss";
+            this.menuDescontoInss.Size = new System.Drawing.Size(233, 22);
+            this.menuDescontoInss.Text = "Desconto de INSS";
             // 
-            // descontoDeIRRFToolStripMenuItem
+            // menuDescontoIrrf
             // 
-            this.descontoDeIRRFToolStripMenuItem.Name = "descontoDeIRRFToolStripMenuItem";
-            this.descontoDeIRRFToolStripMenuItem.Size = new System.Drawing.Size(233, 22);
-            this.descontoDeIRRFToolStripMenuItem.Text = "Desconto de IRRF";
+            this.menuDescontoIrrf.Name = "menuDescontoIrrf";
+            this.menuDescontoIrrf.Size = new System.Drawing.Size(233, 22);
+            this.menuDescontoIrrf.Text = "Desconto de IRRF";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
             this.toolStripSeparator1.Size = new System.Drawing.Size(230, 6);
             // 
-            // beneficioDeFeriásToolStripMenuItem
+            // menuBeneficioAdicionalFerias
             // 
-            this.beneficioDeFeriásToolStripMenuItem.Name = "beneficioDeFeriásToolStripMenuItem";
-            this.beneficioDeFeriásToolStripMenuItem.Size = new System.Drawing.Size(233, 22);
-            this.beneficioDeFeriásToolStripMenuItem.Text = "Beneficio de Feriás";
+            this.menuBeneficioAdicionalFerias.Name = "menuBeneficioAdicionalFerias";
+            this.menuBeneficioAdicionalFerias.Size = new System.Drawing.Size(233, 22);
+            this.menuBeneficioAdicionalFerias.Text = "Beneficio de Feriás";
             // 
-            // beneficioValeTransporteToolStripMenuItem
+            // menuBeneficioValeTransporte
             // 
-            this.beneficioValeTransporteToolStripMenuItem.Name = "beneficioValeTransporteToolStripMenuItem";
-            this.beneficioValeTransporteToolStripMenuItem.Size = new System.Drawing.Size(233, 22);
-            this.beneficioValeTransporteToolStripMenuItem.Text = "Beneficio Vale Transporte";
+            this.menuBeneficioValeTransporte.Name = "menuBeneficioValeTransporte";
+            this.menuBeneficioValeTransporte.Size = new System.Drawing.Size(233, 22);
+            this.menuBeneficioValeTransporte.Text = "Beneficio Vale Transporte";
             // 
-            // beneficioSeguroDesempregoToolStripMenuItem
+            // menuBeneficioSeguroDesemprego
             // 
-            this.beneficioSeguroDesempregoToolStripMenuItem.Name = "beneficioSeguroDesempregoToolStripMenuItem";
-            this.beneficioSeguroDesempregoToolStripMenuItem.Size = new System.Drawing.Size(233, 22);
-            this.beneficioSeguroDesempregoToolStripMenuItem.Text = "Beneficio Seguro Desemprego";
+            this.menuBeneficioSeguroDesemprego.Name = "menuBeneficioSeguroDesemprego";
+            this.menuBeneficioSeguroDesemprego.Size = new System.Drawing.Size(233, 22);
+            this.menuBeneficioSeguroDesemprego.Text = "Beneficio Seguro Desemprego";
             // 
-            // beneficioPISToolStripMenuItem
+            // menuBeneficioPis
             // 
-            this.beneficioPISToolStripMenuItem.Name = "beneficioPISToolStripMenuItem";
-            this.beneficioPISToolStripMenuItem.Size = new System.Drawing.Size(233, 22);
-            this.beneficioPISToolStripMenuItem.Text = "Beneficio PIS";
+            this.menuBeneficioPis.Name = "menuBeneficioPis";
+            this.menuBeneficioPis.Size = new System.Drawing.Size(233, 22);
+            this.menuBeneficioPis.Text = "Beneficio PIS";
             // 
-            // beneficioAdicionalNoturnoToolStripMenuItem
+            // menuBeneficioAdicionalNoturnu
             // 
-            this.beneficioAdicionalNoturnoToolStripMenuItem.Name = "beneficioAdicionalNoturnoToolStripMenuItem";
-            this.beneficioAdicionalNoturnoToolStripMenuItem.Size = new System.Drawing.Size(233, 22);
-            this.beneficioAdicionalNoturnoToolStripMenuItem.Text = "Beneficio Adicional Noturno";
+            this.menuBeneficioAdicionalNoturnu.Name = "menuBeneficioAdicionalNoturnu";
+            this.menuBeneficioAdicionalNoturnu.Size = new System.Drawing.Size(233, 22);
+            this.menuBeneficioAdicionalNoturnu.Text = "Beneficio Adicional Noturno";
             // 
-            // beneficioDepositoFGTSToolStripMenuItem
+            // menuBeneficioDepositoFgts
             // 
-            this.beneficioDepositoFGTSToolStripMenuItem.Name = "beneficioDepositoFGTSToolStripMenuItem";
-            this.beneficioDepositoFGTSToolStripMenuItem.Size = new System.Drawing.Size(233, 22);
-            this.beneficioDepositoFGTSToolStripMenuItem.Text = "Beneficio deposito FGTS";
+            this.menuBeneficioDepositoFgts.Name = "menuBeneficioDepositoFgts";
+            this.menuBeneficioDepositoFgts.Size = new System.Drawing.Size(233, 22);
+            this.menuBeneficioDepositoFgts.Text = "Beneficio Deposito FGTS";
             // 
-            // beneficioHoraExtraToolStripMenuItem
+            // menuBeneficioHoraExtra
             // 
-            this.beneficioHoraExtraToolStripMenuItem.Name = "beneficioHoraExtraToolStripMenuItem";
-            this.beneficioHoraExtraToolStripMenuItem.Size = new System.Drawing.Size(233, 22);
-            this.beneficioHoraExtraToolStripMenuItem.Text = "Beneficio Hora Extra";
+            this.menuBeneficioHoraExtra.Name = "menuBeneficioHoraExtra";
+            this.menuBeneficioHoraExtra.Size = new System.Drawing.Size(233, 22);
+            this.menuBeneficioHoraExtra.Text = "Beneficio Hora Extra";
             // 
-            // beneficioPericulosidadeToolStripMenuItem
+            // menuBeneficioPericulosidade
             // 
-            this.beneficioPericulosidadeToolStripMenuItem.Name = "beneficioPericulosidadeToolStripMenuItem";
-            this.beneficioPericulosidadeToolStripMenuItem.Size = new System.Drawing.Size(233, 22);
-            this.beneficioPericulosidadeToolStripMenuItem.Text = "Beneficio Periculosidade";
+            this.menuBeneficioPericulosidade.Name = "menuBeneficioPericulosidade";
+            this.menuBeneficioPericulosidade.Size = new System.Drawing.Size(233, 22);
+            this.menuBeneficioPericulosidade.Text = "Beneficio Periculosidade";
             // 
             // PrincipalMdi
             // 
@@ -160,6 +161,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.menuPrincipal);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuPrincipal;
             this.Name = "PrincipalMdi";
@@ -179,16 +181,16 @@
         private System.Windows.Forms.ToolStripMenuItem funcionariosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cadrastroToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem simuladoresToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem descontoDeINSSToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem descontoDeIRRFToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem menuDescontoInss;
+        private System.Windows.Forms.ToolStripMenuItem menuDescontoIrrf;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
-        private System.Windows.Forms.ToolStripMenuItem beneficioAdicionalNoturnoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem beneficioDeFeriásToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem beneficioPISToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem beneficioSeguroDesempregoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem beneficioValeTransporteToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem beneficioDepositoFGTSToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem beneficioHoraExtraToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem beneficioPericulosidadeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem menuBeneficioAdicionalNoturnu;
+        private System.Windows.Forms.ToolStripMenuItem menuBeneficioAdicionalFerias;
+        private System.Windows.Forms.ToolStripMenuItem menuBeneficioPis;
+        private System.Windows.Forms.ToolStripMenuItem menuBeneficioSeguroDesemprego;
+        private System.Windows.Forms.ToolStripMenuItem menuBeneficioValeTransporte;
+        private System.Windows.Forms.ToolStripMenuItem menuBeneficioDepositoFgts;
+        private System.Windows.Forms.ToolStripMenuItem menuBeneficioHoraExtra;
+        private System.Windows.Forms.ToolStripMenuItem menuBeneficioPericulosidade;
     }
 }
