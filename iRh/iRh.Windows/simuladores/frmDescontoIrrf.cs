@@ -1,4 +1,5 @@
-﻿using System;
+﻿using iRh.Windows.simuladores;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,11 @@ namespace iRh.Windows.simuladores
         public frmDescontoIrrf()
         {
             InitializeComponent();
+        }
+
+        private void frmDescontoIrrf_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
