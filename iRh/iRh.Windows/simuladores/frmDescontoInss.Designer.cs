@@ -35,8 +35,8 @@
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.btnCalcular = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.lblResultado = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lblMostrarResultado = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -45,7 +45,7 @@
             // 
             this.lblSalario.AutoSize = true;
             this.lblSalario.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSalario.Location = new System.Drawing.Point(169, 49);
+            this.lblSalario.Location = new System.Drawing.Point(47, 39);
             this.lblSalario.Name = "lblSalario";
             this.lblSalario.Size = new System.Drawing.Size(152, 30);
             this.lblSalario.TabIndex = 0;
@@ -53,9 +53,9 @@
             // 
             // txtSalario
             // 
-            this.txtSalario.Location = new System.Drawing.Point(174, 82);
+            this.txtSalario.Location = new System.Drawing.Point(43, 89);
             this.txtSalario.Name = "txtSalario";
-            this.txtSalario.Size = new System.Drawing.Size(225, 20);
+            this.txtSalario.Size = new System.Drawing.Size(253, 20);
             this.txtSalario.TabIndex = 1;
             // 
             // contextMenuStrip1
@@ -66,7 +66,7 @@
             // btnCalcular
             // 
             this.btnCalcular.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalcular.Location = new System.Drawing.Point(174, 127);
+            this.btnCalcular.Location = new System.Drawing.Point(43, 128);
             this.btnCalcular.Name = "btnCalcular";
             this.btnCalcular.Size = new System.Drawing.Size(117, 23);
             this.btnCalcular.TabIndex = 3;
@@ -77,31 +77,31 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Khaki;
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.lblResultado);
-            this.panel1.Location = new System.Drawing.Point(546, 100);
+            this.panel1.Controls.Add(this.lblMostrarResultado);
+            this.panel1.Location = new System.Drawing.Point(43, 234);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(185, 141);
+            this.panel1.Size = new System.Drawing.Size(185, 114);
             this.panel1.TabIndex = 4;
-            // 
-            // lblResultado
-            // 
-            this.lblResultado.AutoSize = true;
-            this.lblResultado.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResultado.Location = new System.Drawing.Point(16, 55);
-            this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(126, 30);
-            this.lblResultado.TabIndex = 5;
-            this.lblResultado.Text = "lblResultado";
+            this.panel1.TabStop = true;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(-103, -68);
+            this.pictureBox1.Location = new System.Drawing.Point(399, -99);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(440, 447);
+            this.pictureBox1.Size = new System.Drawing.Size(465, 772);
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
+            // 
+            // lblMostrarResultado
+            // 
+            this.lblMostrarResultado.AutoSize = true;
+            this.lblMostrarResultado.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMostrarResultado.Location = new System.Drawing.Point(3, 11);
+            this.lblMostrarResultado.Name = "lblMostrarResultado";
+            this.lblMostrarResultado.Size = new System.Drawing.Size(131, 30);
+            this.lblMostrarResultado.TabIndex = 6;
+            this.lblMostrarResultado.Text = "RESULTADO:";
             // 
             // frmDescontoInss
             // 
@@ -109,6 +109,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MediumTurquoise;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnCalcular);
             this.Controls.Add(this.txtSalario);
@@ -131,7 +132,7 @@
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.Button btnCalcular;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label lblResultado;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label lblMostrarResultado;
     }
 }

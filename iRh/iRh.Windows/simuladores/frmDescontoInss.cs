@@ -1,17 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using iRh.Windows.Core;
+using System;
 using System.Windows.Forms;
+
 
 namespace iRh.Windows.simuladores
 {
     public partial class frmDescontoInss : Form
     {
+
+        //construtor
         public frmDescontoInss()
         {
             InitializeComponent();
@@ -33,6 +30,8 @@ namespace iRh.Windows.simuladores
             try
             {
                 var salario = double.Parse(txtSalario.Text);
+                var descontoInss = Inss.Calcula(salario);
+                lblMostrarResultado.Text = descontoInss.ToString("C");
 
             }
             catch (Exception)
