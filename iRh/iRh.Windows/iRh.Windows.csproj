@@ -52,7 +52,9 @@
     <Compile Include="cadastro\frmFuncionarios.Designer.cs">
       <DependentUpon>frmFuncionarios.cs</DependentUpon>
     </Compile>
+    <Compile Include="Core\Fgts.cs" />
     <Compile Include="Core\Inss.cs" />
+    <Compile Include="Core\ValeTransporte.cs" />
     <Compile Include="PrincipalMdi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -135,9 +137,13 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="simuladores\frmBeneficioAdicionalNoturno.resx">
       <DependentUpon>frmBeneficioAdicionalNoturno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="simuladores\frmBeneficioDepositoFgts.resx">
+      <DependentUpon>frmBeneficioDepositoFgts.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="simuladores\frmBeneficioSeguroDesemprego.resx">
       <DependentUpon>frmBeneficioSeguroDesemprego.cs</DependentUpon>
@@ -164,6 +170,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\inss.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %283%29.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -29,21 +29,19 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDescontoInss));
             this.lblSalario = new System.Windows.Forms.Label();
             this.txtSalario = new System.Windows.Forms.TextBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.btnCalcular = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panelResultado = new System.Windows.Forms.Panel();
             this.lblMostrarResultado = new System.Windows.Forms.Label();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panelResultado.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblSalario
             // 
             this.lblSalario.AutoSize = true;
+            this.lblSalario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.lblSalario.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSalario.Location = new System.Drawing.Point(47, 39);
             this.lblSalario.Name = "lblSalario";
@@ -53,6 +51,7 @@
             // 
             // txtSalario
             // 
+            this.txtSalario.BackColor = System.Drawing.Color.White;
             this.txtSalario.Location = new System.Drawing.Point(43, 89);
             this.txtSalario.Name = "txtSalario";
             this.txtSalario.Size = new System.Drawing.Size(253, 20);
@@ -74,24 +73,17 @@
             this.btnCalcular.UseVisualStyleBackColor = true;
             this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
-            // panel1
+            // panelResultado
             // 
-            this.panel1.BackColor = System.Drawing.Color.Khaki;
-            this.panel1.Controls.Add(this.lblMostrarResultado);
-            this.panel1.Location = new System.Drawing.Point(43, 234);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(185, 114);
-            this.panel1.TabIndex = 4;
-            this.panel1.TabStop = true;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(399, -99);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(465, 772);
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
+            this.panelResultado.AutoSize = true;
+            this.panelResultado.BackColor = System.Drawing.Color.Khaki;
+            this.panelResultado.Controls.Add(this.lblMostrarResultado);
+            this.panelResultado.Location = new System.Drawing.Point(624, 167);
+            this.panelResultado.Name = "panelResultado";
+            this.panelResultado.Size = new System.Drawing.Size(173, 153);
+            this.panelResultado.TabIndex = 4;
+            this.panelResultado.TabStop = true;
+            this.panelResultado.Visible = false;
             // 
             // lblMostrarResultado
             // 
@@ -108,18 +100,17 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.BackgroundImage = global::iRh.Windows.Properties.Resources.download__3_;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panelResultado);
             this.Controls.Add(this.btnCalcular);
             this.Controls.Add(this.txtSalario);
             this.Controls.Add(this.lblSalario);
             this.Name = "frmDescontoInss";
             this.Text = "Desconto de Inss";
             this.Load += new System.EventHandler(this.frmDescontoInss_Load);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panelResultado.ResumeLayout(false);
+            this.panelResultado.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -131,8 +122,7 @@
         private System.Windows.Forms.TextBox txtSalario;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.Button btnCalcular;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel panelResultado;
         private System.Windows.Forms.Label lblMostrarResultado;
     }
 }

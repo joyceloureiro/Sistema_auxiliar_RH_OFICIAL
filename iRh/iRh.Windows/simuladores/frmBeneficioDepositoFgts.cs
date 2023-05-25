@@ -1,11 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using iRh.Windows.Core;
+using System;
 using System.Windows.Forms;
 
 namespace iRh.Windows.simuladores
@@ -16,5 +10,29 @@ namespace iRh.Windows.simuladores
         {
             InitializeComponent();
         }
-    }
+
+        private void btnCalcularFgts_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtSalarioFgts.Text))
+            {
+                MessageBox.Show("Informe seu sálario base: ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtSalarioFgts.Focus();
+                return;
+            }
+            try
+            {
+                var salario = double.Parse(txtSalarioFgts.Text);
+                var valorFgts = Fgts.calculaFgts(salario);
+                lblMostrarResultadoFgts.Text = valorFgts.ToString("C");
+
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Informe seu sálario base: ex:1506", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtSalarioFgts.Focus();
+                throw;
+            }
+            panelResultadoFgts.Show();
+        }
+    }      
 }
