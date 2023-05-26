@@ -33,9 +33,7 @@
             this.btnCalcularVT = new System.Windows.Forms.Button();
             this.panelResultadoVT = new System.Windows.Forms.Panel();
             this.lblMostrarResultadoVT = new System.Windows.Forms.Label();
-            this.lblValorPassagemVT = new System.Windows.Forms.Label();
             this.txtSalarioVT = new System.Windows.Forms.TextBox();
-            this.txtValorPassagemVT = new System.Windows.Forms.TextBox();
             this.panelResultadoVT.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,7 +43,7 @@
             this.lblSalarioVT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.lblSalarioVT.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSalarioVT.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblSalarioVT.Location = new System.Drawing.Point(71, 128);
+            this.lblSalarioVT.Location = new System.Drawing.Point(71, 77);
             this.lblSalarioVT.Name = "lblSalarioVT";
             this.lblSalarioVT.Size = new System.Drawing.Size(178, 21);
             this.lblSalarioVT.TabIndex = 1;
@@ -53,7 +51,7 @@
             // 
             // btnCalcularVT
             // 
-            this.btnCalcularVT.Location = new System.Drawing.Point(75, 206);
+            this.btnCalcularVT.Location = new System.Drawing.Point(75, 162);
             this.btnCalcularVT.Name = "btnCalcularVT";
             this.btnCalcularVT.Size = new System.Drawing.Size(102, 23);
             this.btnCalcularVT.TabIndex = 2;
@@ -85,31 +83,12 @@
             this.lblMostrarResultadoVT.TabIndex = 6;
             this.lblMostrarResultadoVT.Text = "RESULTADO:";
             // 
-            // lblValorPassagemVT
-            // 
-            this.lblValorPassagemVT.AutoSize = true;
-            this.lblValorPassagemVT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lblValorPassagemVT.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblValorPassagemVT.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblValorPassagemVT.Location = new System.Drawing.Point(71, 42);
-            this.lblValorPassagemVT.Name = "lblValorPassagemVT";
-            this.lblValorPassagemVT.Size = new System.Drawing.Size(332, 21);
-            this.lblValorPassagemVT.TabIndex = 7;
-            this.lblValorPassagemVT.Text = "DIGITE O VALOR DA PASAGEM DE ONIBUS:";
-            // 
             // txtSalarioVT
             // 
-            this.txtSalarioVT.Location = new System.Drawing.Point(75, 166);
+            this.txtSalarioVT.Location = new System.Drawing.Point(75, 118);
             this.txtSalarioVT.Name = "txtSalarioVT";
             this.txtSalarioVT.Size = new System.Drawing.Size(266, 20);
             this.txtSalarioVT.TabIndex = 0;
-            // 
-            // txtValorPassagemVT
-            // 
-            this.txtValorPassagemVT.Location = new System.Drawing.Point(75, 78);
-            this.txtValorPassagemVT.Name = "txtValorPassagemVT";
-            this.txtValorPassagemVT.Size = new System.Drawing.Size(266, 20);
-            this.txtValorPassagemVT.TabIndex = 8;
             // 
             // frmBeneficioValeTransporte
             // 
@@ -118,8 +97,6 @@
             this.BackColor = System.Drawing.Color.MediumSpringGreen;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.txtValorPassagemVT);
-            this.Controls.Add(this.lblValorPassagemVT);
             this.Controls.Add(this.panelResultadoVT);
             this.Controls.Add(this.btnCalcularVT);
             this.Controls.Add(this.lblSalarioVT);
@@ -139,8 +116,6 @@
         private System.Windows.Forms.Button btnCalcularVT;
         private System.Windows.Forms.Panel panelResultadoVT;
         private System.Windows.Forms.Label lblMostrarResultadoVT;
-        private System.Windows.Forms.Label lblValorPassagemVT;
         private System.Windows.Forms.TextBox txtSalarioVT;
-        private System.Windows.Forms.TextBox txtValorPassagemVT;
     }
 }

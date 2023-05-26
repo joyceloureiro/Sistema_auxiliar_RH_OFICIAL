@@ -65,9 +65,9 @@
             // btnCalcular
             // 
             this.btnCalcular.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalcular.Location = new System.Drawing.Point(43, 128);
+            this.btnCalcular.Location = new System.Drawing.Point(43, 125);
             this.btnCalcular.Name = "btnCalcular";
-            this.btnCalcular.Size = new System.Drawing.Size(117, 23);
+            this.btnCalcular.Size = new System.Drawing.Size(139, 27);
             this.btnCalcular.TabIndex = 3;
             this.btnCalcular.Text = "CALCULAR INSS";
             this.btnCalcular.UseVisualStyleBackColor = true;
@@ -76,11 +76,11 @@
             // panelResultado
             // 
             this.panelResultado.AutoSize = true;
-            this.panelResultado.BackColor = System.Drawing.Color.Khaki;
+            this.panelResultado.BackColor = System.Drawing.Color.Transparent;
             this.panelResultado.Controls.Add(this.lblMostrarResultado);
-            this.panelResultado.Location = new System.Drawing.Point(624, 167);
+            this.panelResultado.Location = new System.Drawing.Point(597, 107);
             this.panelResultado.Name = "panelResultado";
-            this.panelResultado.Size = new System.Drawing.Size(173, 153);
+            this.panelResultado.Size = new System.Drawing.Size(159, 136);
             this.panelResultado.TabIndex = 4;
             this.panelResultado.TabStop = true;
             this.panelResultado.Visible = false;
@@ -88,8 +88,9 @@
             // lblMostrarResultado
             // 
             this.lblMostrarResultado.AutoSize = true;
+            this.lblMostrarResultado.BackColor = System.Drawing.Color.Yellow;
             this.lblMostrarResultado.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMostrarResultado.Location = new System.Drawing.Point(3, 11);
+            this.lblMostrarResultado.Location = new System.Drawing.Point(3, 6);
             this.lblMostrarResultado.Name = "lblMostrarResultado";
             this.lblMostrarResultado.Size = new System.Drawing.Size(131, 30);
             this.lblMostrarResultado.TabIndex = 6;

@@ -2,7 +2,7 @@
 {
     public static class ValeTransporte
     {
-        public static double calculaVT(double salario,valorPassagem)
+        public static double calculaVT(double salario)
         {
             double valorValeTransporte = 0;
 

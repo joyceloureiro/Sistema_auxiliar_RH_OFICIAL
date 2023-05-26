@@ -11,17 +11,16 @@
         public static double Calcula(double salario)
         {
             
-
             double valorInss = 0;
 
             if(salario <= Faixa01)
             {
-                valorInss = Core.Inss.CalculaFaixa1(salario);
+                valorInss = Core.Inss.CalculaFaixa0(salario);
             }
             else if(salario <= Faixa02)
             {
                 var descontoFaixa1 = Core.Inss.CalculaFaixa1(salario);
-                valorInss = (salario - Faixa01) + descontoFaixa1;
+                valorInss = 0.09 * (salario - Faixa01) + descontoFaixa1;
             }
             else if (salario <= Faixa03)
             {
@@ -46,6 +45,11 @@
 
             return valorInss;
         }
+
+        private static double CalculaFaixa0(double salario)
+        {
+            return (0.075 * salario);
+        }
         private static double CalculaFaixa1(double salario)
         {
             return (0.075 * Faixa01);
@@ -56,7 +60,7 @@
         }
         private static double CalculaFaixa3(double salario)
         {
-            return 0.14 * (Faixa03 - Faixa02);
+            return 0.12 * (Faixa03 - Faixa02);
         }
     }
 }

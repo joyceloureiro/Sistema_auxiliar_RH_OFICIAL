@@ -26,7 +26,6 @@ namespace iRh.Windows.simuladores
             try
             {
                 var salario = double.Parse(txtSalarioVT.Text);
-                var valorPassagemvalorPassagem = double.Parse(txtValorPassagemVT.Text);
                 var valorValeTransporte = ValeTransporte.calculaVT(salario);
                 lblMostrarResultadoVT.Text = valorValeTransporte.ToString("C");
 
