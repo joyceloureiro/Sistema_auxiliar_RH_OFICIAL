@@ -147,6 +147,9 @@
     <EmbeddedResource Include="simuladores\frmBeneficioDepositoFgts.resx">
       <DependentUpon>frmBeneficioDepositoFgts.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="simuladores\frmBeneficioHoraExtra.resx">
+      <DependentUpon>frmBeneficioHoraExtra.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="simuladores\frmBeneficioSeguroDesemprego.resx">
       <DependentUpon>frmBeneficioSeguroDesemprego.cs</DependentUpon>
     </EmbeddedResource>
