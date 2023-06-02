@@ -12,12 +12,28 @@
                 
                   if (salario < (2 * salarioMinimo))
                  {
-                    pisMensal = salarioMinimo / 12;
-                    valorPis = mesesTrabalhadosAnoBasePiss * pisMensal;
+                        if (mesesTrabalhadosAnoBasePiss > 1)
+                       {
+                           pisMensal = salarioMinimo / 12;
+                            valorPis = mesesTrabalhadosAnoBasePiss * pisMensal;
+                        }
+                        else
+                       {
+                           valorPis = 0;
+                       }
                  }
+                 else
+                 {
+                    valorPis = 0;
+                 }
+
+            }
+            else
+            {
+                valorPis = 0;
             }
 
-    {
+            
 
     
 
