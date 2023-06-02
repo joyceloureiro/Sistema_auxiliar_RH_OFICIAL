@@ -54,7 +54,7 @@ namespace iRh.Windows
 
         private void menuBeneficioPis_Click(object sender, EventArgs e)
         {
-            var form = new frmBeneficioPis();
+            var form = new frmBeneficioPi();
             form.MdiParent = this;
             form.Show();
         }

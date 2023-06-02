@@ -34,7 +34,7 @@
             // cmbGenero
             // 
             this.cmbGenero.FormattingEnabled = true;
-            this.cmbGenero.Location = new System.Drawing.Point(104, 90);
+            this.cmbGenero.Location = new System.Drawing.Point(73, 72);
             this.cmbGenero.Name = "cmbGenero";
             this.cmbGenero.Size = new System.Drawing.Size(121, 21);
             this.cmbGenero.TabIndex = 0;

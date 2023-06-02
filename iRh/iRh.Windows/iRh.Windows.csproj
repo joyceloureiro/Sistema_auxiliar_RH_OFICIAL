@@ -56,6 +56,7 @@
     <Compile Include="Core\Fgts.cs" />
     <Compile Include="Core\Inss.cs" />
     <Compile Include="Core\Irrf.cs" />
+    <Compile Include="Core\Pis.cs" />
     <Compile Include="Core\ValeTransporte.cs" />
     <Compile Include="PrincipalMdi.cs">
       <SubType>Form</SubType>
@@ -147,8 +148,14 @@
     <EmbeddedResource Include="simuladores\frmBeneficioDepositoFgts.resx">
       <DependentUpon>frmBeneficioDepositoFgts.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="simuladores\frmBeneficioferias.resx">
+      <DependentUpon>frmBeneficioferias.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="simuladores\frmBeneficioHoraExtra.resx">
       <DependentUpon>frmBeneficioHoraExtra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="simuladores\frmBeneficioPis.resx">
+      <DependentUpon>frmBeneficioPis.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="simuladores\frmBeneficioSeguroDesemprego.resx">
       <DependentUpon>frmBeneficioSeguroDesemprego.cs</DependentUpon>
@@ -180,6 +187,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\download %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pagamento-pis.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pagamento-pis1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
