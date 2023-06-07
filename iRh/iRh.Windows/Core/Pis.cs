@@ -3,9 +3,10 @@
     public static class Pis
     {
         const double salarioMinimo = 1320.00;
-        public static double calculaPis(double salario,double mesesTrabalhadosAnoBasePiss, double anoInscritoPis)
+        public static double CalculaPis(double salario,double mesesTrabalhadosAnoBasePiss, double anoInscritoPis)
         {
             double pisMensal = 0;
+            double valorPis;
 
             if (anoInscritoPis >5)
             {

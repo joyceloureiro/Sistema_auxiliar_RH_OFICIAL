@@ -60,7 +60,7 @@ namespace iRh.Windows.cadastro
                 
                                                     
                 default:
-                    break;
+                    return "PREZADEZ SENHOREZ";
             }
         }
     }

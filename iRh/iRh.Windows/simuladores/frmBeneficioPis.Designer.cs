@@ -44,7 +44,7 @@
             // 
             this.lblSalarioMensalPis.AutoSize = true;
             this.lblSalarioMensalPis.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSalarioMensalPis.Location = new System.Drawing.Point(43, 242);
+            this.lblSalarioMensalPis.Location = new System.Drawing.Point(43, 227);
             this.lblSalarioMensalPis.Name = "lblSalarioMensalPis";
             this.lblSalarioMensalPis.Size = new System.Drawing.Size(368, 21);
             this.lblSalarioMensalPis.TabIndex = 26;
@@ -52,7 +52,7 @@
             // 
             // txtSalarioMensalPis
             // 
-            this.txtSalarioMensalPis.Location = new System.Drawing.Point(47, 292);
+            this.txtSalarioMensalPis.Location = new System.Drawing.Point(47, 270);
             this.txtSalarioMensalPis.Name = "txtSalarioMensalPis";
             this.txtSalarioMensalPis.Size = new System.Drawing.Size(287, 20);
             this.txtSalarioMensalPis.TabIndex = 25;
@@ -61,7 +61,7 @@
             // 
             this.lblMesesTrabalhadosAnoBasePis.AutoSize = true;
             this.lblMesesTrabalhadosAnoBasePis.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMesesTrabalhadosAnoBasePis.Location = new System.Drawing.Point(43, 148);
+            this.lblMesesTrabalhadosAnoBasePis.Location = new System.Drawing.Point(43, 125);
             this.lblMesesTrabalhadosAnoBasePis.Name = "lblMesesTrabalhadosAnoBasePis";
             this.lblMesesTrabalhadosAnoBasePis.Size = new System.Drawing.Size(421, 21);
             this.lblMesesTrabalhadosAnoBasePis.TabIndex = 24;
@@ -69,7 +69,7 @@
             // 
             // txtMesesTrabalhadosAnoBasePis
             // 
-            this.txtMesesTrabalhadosAnoBasePis.Location = new System.Drawing.Point(47, 198);
+            this.txtMesesTrabalhadosAnoBasePis.Location = new System.Drawing.Point(47, 167);
             this.txtMesesTrabalhadosAnoBasePis.Name = "txtMesesTrabalhadosAnoBasePis";
             this.txtMesesTrabalhadosAnoBasePis.Size = new System.Drawing.Size(248, 20);
             this.txtMesesTrabalhadosAnoBasePis.TabIndex = 23;
@@ -100,7 +100,7 @@
             // btnCalcularPis
             // 
             this.btnCalcularPis.ForeColor = System.Drawing.Color.Black;
-            this.btnCalcularPis.Location = new System.Drawing.Point(47, 341);
+            this.btnCalcularPis.Location = new System.Drawing.Point(47, 319);
             this.btnCalcularPis.Name = "btnCalcularPis";
             this.btnCalcularPis.Size = new System.Drawing.Size(122, 24);
             this.btnCalcularPis.TabIndex = 21;
@@ -112,7 +112,7 @@
             // 
             this.lblAnosInscritoPis.AutoSize = true;
             this.lblAnosInscritoPis.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAnosInscritoPis.Location = new System.Drawing.Point(43, 47);
+            this.lblAnosInscritoPis.Location = new System.Drawing.Point(43, 27);
             this.lblAnosInscritoPis.Name = "lblAnosInscritoPis";
             this.lblAnosInscritoPis.Size = new System.Drawing.Size(386, 21);
             this.lblAnosInscritoPis.TabIndex = 20;
@@ -120,7 +120,7 @@
             // 
             // txtAnosInscritoPis
             // 
-            this.txtAnosInscritoPis.Location = new System.Drawing.Point(47, 98);
+            this.txtAnosInscritoPis.Location = new System.Drawing.Point(47, 63);
             this.txtAnosInscritoPis.Name = "txtAnosInscritoPis";
             this.txtAnosInscritoPis.Size = new System.Drawing.Size(224, 20);
             this.txtAnosInscritoPis.TabIndex = 19;

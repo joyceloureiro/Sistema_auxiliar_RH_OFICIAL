@@ -1,4 +1,5 @@
-﻿using System;
+﻿using iRh.Windows.Core;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -30,7 +31,7 @@ namespace iRh.Windows.simuladores
                 var salario = double.Parse(txtSalarioMensalPis.Text);
                 var mesesTrabalhadosAnoBasePis = double.Parse(txtMesesTrabalhadosAnoBasePis.Text);
                 var anoInscritoPis = double.Parse(txtAnosInscritoPis.Text);
-                var valorPis = Cal(salario, mesesTrabalhadosAnoBasePis, anoInscritoPis);
+                var valorPis = Pis.CalculaPis(salario, mesesTrabalhadosAnoBasePis, anoInscritoPis);
                 lblMostrarResultadoPis.Text = valorPis.ToString("C");
 
             }

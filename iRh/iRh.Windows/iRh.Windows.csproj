@@ -54,9 +54,12 @@
     </Compile>
     <Compile Include="Core\AdicionalNoturno.cs" />
     <Compile Include="Core\Fgts.cs" />
+    <Compile Include="Core\HoraExtra.cs" />
     <Compile Include="Core\Inss.cs" />
     <Compile Include="Core\Irrf.cs" />
+    <Compile Include="Core\Periculosidade.cs" />
     <Compile Include="Core\Pis.cs" />
+    <Compile Include="Core\SeguroDesemprego.cs" />
     <Compile Include="Core\ValeTransporte.cs" />
     <Compile Include="PrincipalMdi.cs">
       <SubType>Form</SubType>
@@ -154,6 +157,9 @@
     <EmbeddedResource Include="simuladores\frmBeneficioHoraExtra.resx">
       <DependentUpon>frmBeneficioHoraExtra.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="simuladores\frmBeneficioPericulosidade.resx">
+      <DependentUpon>frmBeneficioPericulosidade.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="simuladores\frmBeneficioPis.resx">
       <DependentUpon>frmBeneficioPis.cs</DependentUpon>
     </EmbeddedResource>
@@ -196,6 +202,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\pagamento-pis1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capa-dos-artigos-1-1024x576.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capa-dos-artigos-1-1024x5761.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\582810112619e1ee00d335.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
