@@ -221,5 +221,14 @@
   <ItemGroup>
     <None Include="Resources\582810112619e1ee00d335.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2017-06-14-conheca-a-importancia-da-adm-de-recursos-humanos-1-802x506 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elementos-recursos-humanos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portaldoholanda-947797-imagem-foto-1amazonas.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

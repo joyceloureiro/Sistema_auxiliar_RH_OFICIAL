@@ -69,7 +69,7 @@
             // cadrastroToolStripMenuItem
             // 
             this.cadrastroToolStripMenuItem.Name = "cadrastroToolStripMenuItem";
-            this.cadrastroToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cadrastroToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.cadrastroToolStripMenuItem.Text = "Funcionarios";
             this.cadrastroToolStripMenuItem.Click += new System.EventHandler(this.cadrastroToolStripMenuItem_Click);
             // 
@@ -90,6 +90,7 @@
             this.simuladoresToolStripMenuItem.Name = "simuladoresToolStripMenuItem";
             this.simuladoresToolStripMenuItem.Size = new System.Drawing.Size(83, 20);
             this.simuladoresToolStripMenuItem.Text = "simuladores";
+            this.simuladoresToolStripMenuItem.Click += new System.EventHandler(this.simuladoresToolStripMenuItem_Click);
             // 
             // menuDescontoInss
             // 
@@ -170,6 +171,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::iRh.Windows.Properties.Resources.portaldoholanda_947797_imagem_foto_1amazonas;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.menuPrincipal);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));

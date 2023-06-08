@@ -43,6 +43,7 @@
             // lblSalarioMensalPis
             // 
             this.lblSalarioMensalPis.AutoSize = true;
+            this.lblSalarioMensalPis.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.lblSalarioMensalPis.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSalarioMensalPis.Location = new System.Drawing.Point(43, 227);
             this.lblSalarioMensalPis.Name = "lblSalarioMensalPis";
@@ -60,12 +61,13 @@
             // lblMesesTrabalhadosAnoBasePis
             // 
             this.lblMesesTrabalhadosAnoBasePis.AutoSize = true;
+            this.lblMesesTrabalhadosAnoBasePis.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.lblMesesTrabalhadosAnoBasePis.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMesesTrabalhadosAnoBasePis.Location = new System.Drawing.Point(43, 125);
             this.lblMesesTrabalhadosAnoBasePis.Name = "lblMesesTrabalhadosAnoBasePis";
-            this.lblMesesTrabalhadosAnoBasePis.Size = new System.Drawing.Size(421, 21);
+            this.lblMesesTrabalhadosAnoBasePis.Size = new System.Drawing.Size(540, 21);
             this.lblMesesTrabalhadosAnoBasePis.TabIndex = 24;
-            this.lblMesesTrabalhadosAnoBasePis.Text = "QUANTIDADE DE ANOS TRABALHADOS NO ANO BASE";
+            this.lblMesesTrabalhadosAnoBasePis.Text = "QUANTIDADE DE MESES TRABALHADOS NO ANO BASE (até 12 meses)";
             // 
             // txtMesesTrabalhadosAnoBasePis
             // 
@@ -79,7 +81,7 @@
             this.panelResultadoPis.AutoSize = true;
             this.panelResultadoPis.BackColor = System.Drawing.Color.Transparent;
             this.panelResultadoPis.Controls.Add(this.lblMostrarResultadoPis);
-            this.panelResultadoPis.Location = new System.Drawing.Point(604, 220);
+            this.panelResultadoPis.Location = new System.Drawing.Point(514, 227);
             this.panelResultadoPis.Name = "panelResultadoPis";
             this.panelResultadoPis.Size = new System.Drawing.Size(153, 83);
             this.panelResultadoPis.TabIndex = 22;
@@ -89,7 +91,7 @@
             // lblMostrarResultadoPis
             // 
             this.lblMostrarResultadoPis.AutoSize = true;
-            this.lblMostrarResultadoPis.BackColor = System.Drawing.Color.Yellow;
+            this.lblMostrarResultadoPis.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.lblMostrarResultadoPis.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMostrarResultadoPis.Location = new System.Drawing.Point(3, 0);
             this.lblMostrarResultadoPis.Name = "lblMostrarResultadoPis";
@@ -111,6 +113,7 @@
             // lblAnosInscritoPis
             // 
             this.lblAnosInscritoPis.AutoSize = true;
+            this.lblAnosInscritoPis.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.lblAnosInscritoPis.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAnosInscritoPis.Location = new System.Drawing.Point(43, 27);
             this.lblAnosInscritoPis.Name = "lblAnosInscritoPis";

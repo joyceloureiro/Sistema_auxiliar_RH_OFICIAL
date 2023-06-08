@@ -24,8 +24,8 @@ namespace iRh.Windows.simuladores
                 var salario = double.Parse(txtSalarioHoraExtra.Text);
                 var horasTrabalhadasMes = double.Parse(txtHorasTrabalhadasMes.Text);
                 var horasExtraTrabalhadasMes = double.Parse(txtHorasExtrasTrabalhadas.Text);
-                var valorAdicionalNoturno = HoraExtra.calculaHoraExtra(salario, horasExtraTrabalhadasMes, horasTrabalhadasMes);
-                lblMostrarResultadoHoraExtra.Text = valorAdicionalNoturno.ToString("C");
+                var valorHoraExtra = HoraExtra.calculaHoraExtra(salario, horasExtraTrabalhadasMes, horasTrabalhadasMes);
+                lblMostrarResultadoHoraExtra.Text = valorHoraExtra.ToString("C");
 
             }
             catch (Exception)

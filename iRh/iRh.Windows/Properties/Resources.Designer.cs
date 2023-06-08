@@ -63,6 +63,16 @@ namespace iRh.Windows.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _2017_06_14_conheca_a_importancia_da_adm_de_recursos_humanos_1_802x506__1_ {
+            get {
+                object obj = ResourceManager.GetObject("2017-06-14-conheca-a-importancia-da-adm-de-recursos-humanos-1-802x506 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _582810112619e1ee00d335 {
             get {
                 object obj = ResourceManager.GetObject("582810112619e1ee00d335", resourceCulture);
@@ -106,6 +116,16 @@ namespace iRh.Windows.Properties {
         internal static System.Drawing.Bitmap download__3_ {
             get {
                 object obj = ResourceManager.GetObject("download (3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap elementos_recursos_humanos {
+            get {
+                object obj = ResourceManager.GetObject("elementos-recursos-humanos", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -166,6 +186,16 @@ namespace iRh.Windows.Properties {
         internal static System.Drawing.Bitmap pagamento_pis1 {
             get {
                 object obj = ResourceManager.GetObject("pagamento-pis1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap portaldoholanda_947797_imagem_foto_1amazonas {
+            get {
+                object obj = ResourceManager.GetObject("portaldoholanda-947797-imagem-foto-1amazonas", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

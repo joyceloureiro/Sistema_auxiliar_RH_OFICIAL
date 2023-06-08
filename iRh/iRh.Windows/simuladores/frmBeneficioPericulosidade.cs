@@ -25,6 +25,10 @@ namespace iRh.Windows.simuladores
                 var valorAdicionalPericulosidade = Periculosidade.calculaPericulosidade(salario);
                 lblMostrarResultadoPericulosidade.Text = valorAdicionalPericulosidade.ToString("C");
 
+                lblMostrarResultadoPericulosidade.Text = "valor: " + valorAdicionalPericulosidade.ToString("C");
+                lblMostrarResultadoPericulosidade.Visible = true;
+
+
             }
             catch (Exception)
             {

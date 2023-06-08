@@ -29,36 +29,13 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmBeneficioferias));
-            this.panelResultadoBonificacaoFerias = new System.Windows.Forms.Panel();
-            this.lblMostrarResultadoFgts = new System.Windows.Forms.Label();
             this.btnCalcularBonificacaoFerias = new System.Windows.Forms.Button();
             this.lblSalarioBonificacaoFerias = new System.Windows.Forms.Label();
             this.txtSalarioBonificacaoFerias = new System.Windows.Forms.TextBox();
+            this.panelResultadoBonificacaoFerias = new System.Windows.Forms.Panel();
+            this.lblMostrarResultadoFerias = new System.Windows.Forms.Label();
             this.panelResultadoBonificacaoFerias.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // panelResultadoBonificacaoFerias
-            // 
-            this.panelResultadoBonificacaoFerias.AutoSize = true;
-            this.panelResultadoBonificacaoFerias.BackColor = System.Drawing.Color.Transparent;
-            this.panelResultadoBonificacaoFerias.Controls.Add(this.lblMostrarResultadoFgts);
-            this.panelResultadoBonificacaoFerias.Location = new System.Drawing.Point(46, 188);
-            this.panelResultadoBonificacaoFerias.Name = "panelResultadoBonificacaoFerias";
-            this.panelResultadoBonificacaoFerias.Size = new System.Drawing.Size(153, 83);
-            this.panelResultadoBonificacaoFerias.TabIndex = 10;
-            this.panelResultadoBonificacaoFerias.TabStop = true;
-            this.panelResultadoBonificacaoFerias.Visible = false;
-            // 
-            // lblMostrarResultadoFgts
-            // 
-            this.lblMostrarResultadoFgts.AutoSize = true;
-            this.lblMostrarResultadoFgts.BackColor = System.Drawing.Color.White;
-            this.lblMostrarResultadoFgts.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMostrarResultadoFgts.Location = new System.Drawing.Point(3, 15);
-            this.lblMostrarResultadoFgts.Name = "lblMostrarResultadoFgts";
-            this.lblMostrarResultadoFgts.Size = new System.Drawing.Size(131, 30);
-            this.lblMostrarResultadoFgts.TabIndex = 6;
-            this.lblMostrarResultadoFgts.Text = "RESULTADO:";
             // 
             // btnCalcularBonificacaoFerias
             // 
@@ -87,6 +64,29 @@
             this.txtSalarioBonificacaoFerias.Size = new System.Drawing.Size(266, 20);
             this.txtSalarioBonificacaoFerias.TabIndex = 7;
             // 
+            // panelResultadoBonificacaoFerias
+            // 
+            this.panelResultadoBonificacaoFerias.AutoSize = true;
+            this.panelResultadoBonificacaoFerias.BackColor = System.Drawing.Color.Transparent;
+            this.panelResultadoBonificacaoFerias.Controls.Add(this.lblMostrarResultadoFerias);
+            this.panelResultadoBonificacaoFerias.Location = new System.Drawing.Point(46, 195);
+            this.panelResultadoBonificacaoFerias.Name = "panelResultadoBonificacaoFerias";
+            this.panelResultadoBonificacaoFerias.Size = new System.Drawing.Size(153, 83);
+            this.panelResultadoBonificacaoFerias.TabIndex = 15;
+            this.panelResultadoBonificacaoFerias.TabStop = true;
+            this.panelResultadoBonificacaoFerias.Visible = false;
+            // 
+            // lblMostrarResultadoFerias
+            // 
+            this.lblMostrarResultadoFerias.AutoSize = true;
+            this.lblMostrarResultadoFerias.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.lblMostrarResultadoFerias.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMostrarResultadoFerias.Location = new System.Drawing.Point(3, 9);
+            this.lblMostrarResultadoFerias.Name = "lblMostrarResultadoFerias";
+            this.lblMostrarResultadoFerias.Size = new System.Drawing.Size(131, 30);
+            this.lblMostrarResultadoFerias.TabIndex = 6;
+            this.lblMostrarResultadoFerias.Text = "RESULTADO:";
+            // 
             // frmBeneficioferias
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -107,11 +107,10 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel panelResultadoBonificacaoFerias;
-        private System.Windows.Forms.Label lblMostrarResultadoFgts;
         private System.Windows.Forms.Button btnCalcularBonificacaoFerias;
         private System.Windows.Forms.Label lblSalarioBonificacaoFerias;
         private System.Windows.Forms.TextBox txtSalarioBonificacaoFerias;
+        private System.Windows.Forms.Panel panelResultadoBonificacaoFerias;
+        private System.Windows.Forms.Label lblMostrarResultadoFerias;
     }
 }

@@ -23,8 +23,8 @@ namespace iRh.Windows.simuladores
             {
                 var salario = double.Parse(txtSalarioFgts.Text);
                 var valorFgts = Fgts.calculaFgts(salario);
-                lblMostrarResultadoFgts.Text = valorFgts.ToString("C");
-
+                lblMostrarResultadoFgts.Text = "valor FGTS: " + valorFgts.ToString("C");
+              
             }
             catch (Exception)
             {

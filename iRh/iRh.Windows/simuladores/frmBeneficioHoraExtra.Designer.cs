@@ -45,15 +45,15 @@
             this.lblHorasExtrasTrabalhadas.AutoSize = true;
             this.lblHorasExtrasTrabalhadas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.lblHorasExtrasTrabalhadas.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHorasExtrasTrabalhadas.Location = new System.Drawing.Point(28, 221);
+            this.lblHorasExtrasTrabalhadas.Location = new System.Drawing.Point(28, 129);
             this.lblHorasExtrasTrabalhadas.Name = "lblHorasExtrasTrabalhadas";
-            this.lblHorasExtrasTrabalhadas.Size = new System.Drawing.Size(303, 21);
+            this.lblHorasExtrasTrabalhadas.Size = new System.Drawing.Size(314, 21);
             this.lblHorasExtrasTrabalhadas.TabIndex = 26;
-            this.lblHorasExtrasTrabalhadas.Text = "HORAS EXTRAS TRABALHDAS NO MES:";
+            this.lblHorasExtrasTrabalhadas.Text = "HORAS EXTRAS TRABALHADAS NO MES:";
             // 
             // txtHorasExtrasTrabalhadas
             // 
-            this.txtHorasExtrasTrabalhadas.Location = new System.Drawing.Point(32, 261);
+            this.txtHorasExtrasTrabalhadas.Location = new System.Drawing.Point(32, 171);
             this.txtHorasExtrasTrabalhadas.Name = "txtHorasExtrasTrabalhadas";
             this.txtHorasExtrasTrabalhadas.Size = new System.Drawing.Size(287, 20);
             this.txtHorasExtrasTrabalhadas.TabIndex = 25;
@@ -63,7 +63,7 @@
             this.lblHorasTrabalhadasMes.AutoSize = true;
             this.lblHorasTrabalhadasMes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.lblHorasTrabalhadasMes.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHorasTrabalhadasMes.Location = new System.Drawing.Point(28, 136);
+            this.lblHorasTrabalhadasMes.Location = new System.Drawing.Point(33, 213);
             this.lblHorasTrabalhadasMes.Name = "lblHorasTrabalhadasMes";
             this.lblHorasTrabalhadasMes.Size = new System.Drawing.Size(223, 21);
             this.lblHorasTrabalhadasMes.TabIndex = 24;
@@ -71,7 +71,7 @@
             // 
             // txtHorasTrabalhadasMes
             // 
-            this.txtHorasTrabalhadasMes.Location = new System.Drawing.Point(32, 176);
+            this.txtHorasTrabalhadasMes.Location = new System.Drawing.Point(32, 248);
             this.txtHorasTrabalhadasMes.Name = "txtHorasTrabalhadasMes";
             this.txtHorasTrabalhadasMes.Size = new System.Drawing.Size(248, 20);
             this.txtHorasTrabalhadasMes.TabIndex = 23;

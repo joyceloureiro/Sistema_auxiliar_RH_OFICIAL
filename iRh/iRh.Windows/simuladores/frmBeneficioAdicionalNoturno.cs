@@ -30,7 +30,8 @@ namespace iRh.Windows.simuladores
                 var horasNoturnasTrabalhadas = double.Parse(txtHorasTrabalhadasMes.Text);
                 var horasTrabalhadasMes = double.Parse(txtHorasNoturnasMes.Text);
                 var valorAdicionalNoturno = AdicionalNoturno.calculaAD(salario, horasNoturnasTrabalhadas, horasTrabalhadasMes);
-                lblMostrarResultadoAD.Text = valorAdicionalNoturno.ToString("C");
+                lblMostrarResultadoAD.Text = "valor: " + valorAdicionalNoturno.ToString("C");
+                lblMostrarResultadoAD.Visible = true;
 
             }
             catch (Exception)

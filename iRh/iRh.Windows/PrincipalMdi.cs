@@ -100,5 +100,10 @@ namespace iRh.Windows
             form.MdiParent = this;
             form.Show();
         }
+
+        private void simuladoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

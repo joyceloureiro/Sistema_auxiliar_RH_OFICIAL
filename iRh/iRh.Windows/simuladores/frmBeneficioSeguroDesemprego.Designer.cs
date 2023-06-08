@@ -52,6 +52,7 @@
             this.rdDemisãoPorJustaCausaSim.TabStop = true;
             this.rdDemisãoPorJustaCausaSim.Text = "SIM";
             this.rdDemisãoPorJustaCausaSim.UseVisualStyleBackColor = false;
+            this.rdDemisãoPorJustaCausaSim.CheckedChanged += new System.EventHandler(this.rdDemisãoPorJustaCausaSim_CheckedChanged);
             // 
             // rdDemisãoPorJustaCausaNao
             // 
@@ -64,6 +65,7 @@
             this.rdDemisãoPorJustaCausaNao.TabStop = true;
             this.rdDemisãoPorJustaCausaNao.Text = "NÂO!";
             this.rdDemisãoPorJustaCausaNao.UseVisualStyleBackColor = false;
+            this.rdDemisãoPorJustaCausaNao.CheckedChanged += new System.EventHandler(this.rdDemisãoPorJustaCausaNao_CheckedChanged);
             // 
             // lblMesesTrabalhadosAnteriorSeguro
             // 
@@ -110,6 +112,7 @@
             this.btnCalcularSeguroDesemprego.TabIndex = 27;
             this.btnCalcularSeguroDesemprego.Text = "CALCULAR";
             this.btnCalcularSeguroDesemprego.UseVisualStyleBackColor = true;
+            this.btnCalcularSeguroDesemprego.Click += new System.EventHandler(this.btnCalcularSeguroDesemprego_Click);
             // 
             // lblJustaCausaSimouNao
             // 
@@ -128,9 +131,9 @@
             this.panelExibeDadosSeguroDesemprego.AutoSize = true;
             this.panelExibeDadosSeguroDesemprego.BackColor = System.Drawing.Color.Transparent;
             this.panelExibeDadosSeguroDesemprego.Controls.Add(this.lblMostrarResultadoSeguroDesemprego);
-            this.panelExibeDadosSeguroDesemprego.Location = new System.Drawing.Point(501, 203);
+            this.panelExibeDadosSeguroDesemprego.Location = new System.Drawing.Point(510, 180);
             this.panelExibeDadosSeguroDesemprego.Name = "panelExibeDadosSeguroDesemprego";
-            this.panelExibeDadosSeguroDesemprego.Size = new System.Drawing.Size(153, 83);
+            this.panelExibeDadosSeguroDesemprego.Size = new System.Drawing.Size(166, 105);
             this.panelExibeDadosSeguroDesemprego.TabIndex = 33;
             this.panelExibeDadosSeguroDesemprego.TabStop = true;
             this.panelExibeDadosSeguroDesemprego.Visible = false;
@@ -140,11 +143,12 @@
             this.lblMostrarResultadoSeguroDesemprego.AutoSize = true;
             this.lblMostrarResultadoSeguroDesemprego.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.lblMostrarResultadoSeguroDesemprego.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMostrarResultadoSeguroDesemprego.Location = new System.Drawing.Point(3, 0);
+            this.lblMostrarResultadoSeguroDesemprego.Location = new System.Drawing.Point(13, 34);
             this.lblMostrarResultadoSeguroDesemprego.Name = "lblMostrarResultadoSeguroDesemprego";
             this.lblMostrarResultadoSeguroDesemprego.Size = new System.Drawing.Size(131, 30);
             this.lblMostrarResultadoSeguroDesemprego.TabIndex = 6;
             this.lblMostrarResultadoSeguroDesemprego.Text = "RESULTADO:";
+            this.lblMostrarResultadoSeguroDesemprego.Visible = false;
             // 
             // frmBeneficioSeguroDesemprego
             // 

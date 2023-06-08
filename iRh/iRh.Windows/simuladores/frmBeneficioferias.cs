@@ -29,6 +29,10 @@ namespace iRh.Windows.simuladores
                 var descontos = descontoInss + valorIrrf;
                 var valorTotalProventos = valorBonificacaoFerias + salario;
                 var salarioLiquido = valorTotalProventos - descontos;
+                lblMostrarResultadoFerias.Text = salarioLiquido.ToString("C");
+
+                lblMostrarResultadoFerias.Text = "valor Ferias: " + valorBonificacaoFerias.ToString("C");
+                lblMostrarResultadoFerias.Visible = true;
             }
             catch (Exception)
             {

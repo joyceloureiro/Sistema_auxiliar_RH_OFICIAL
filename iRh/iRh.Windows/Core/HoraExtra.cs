@@ -6,12 +6,13 @@
         {
             double valorHora;
             double valorHoraExtra;
+            double resultadoHoraExtra;
 
             valorHora = salario / horasTrabalhadasMes;
-            valorHoraExtra = valorHora + (valorHora * 0.5);
-            valorHoraExtra = valorHoraExtra * horasExtraTrabalhadasMes;
+            valorHoraExtra = valorHora + (valorHora/2);
+            resultadoHoraExtra = valorHoraExtra * horasExtraTrabalhadasMes;
 
-            return valorHoraExtra;
+            return resultadoHoraExtra;
         }
     }
 }
