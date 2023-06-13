@@ -83,6 +83,26 @@ namespace iRh.Windows.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _900_473_rh_operacional_e_rh_estrategico {
+            get {
+                object obj = ResourceManager.GetObject("900-473-rh-operacional-e-rh-estrategico", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap caneta_azul_novo_album {
+            get {
+                object obj = ResourceManager.GetObject("caneta-azul-novo-album", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Capa_dos_artigos_1_1024x576 {
             get {
                 object obj = ResourceManager.GetObject("Capa-dos-artigos-1-1024x576", resourceCulture);
@@ -113,6 +133,16 @@ namespace iRh.Windows.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap download__1_ {
+            get {
+                object obj = ResourceManager.GetObject("download (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap download__3_ {
             get {
                 object obj = ResourceManager.GetObject("download (3)", resourceCulture);
@@ -126,6 +156,36 @@ namespace iRh.Windows.Properties {
         internal static System.Drawing.Bitmap elementos_recursos_humanos {
             get {
                 object obj = ResourceManager.GetObject("elementos-recursos-humanos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap elementos_recursos_humanos1 {
+            get {
+                object obj = ResourceManager.GetObject("elementos-recursos-humanos1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap frh {
+            get {
+                object obj = ResourceManager.GetObject("frh", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap frh1 {
+            get {
+                object obj = ResourceManager.GetObject("frh1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,9 +223,39 @@ namespace iRh.Windows.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap images__4_ {
+            get {
+                object obj = ResourceManager.GetObject("images (4)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Inovando_RH {
+            get {
+                object obj = ResourceManager.GetObject("Inovando-RH", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap inss {
             get {
                 object obj = ResourceManager.GetObject("inss", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap original_320f7ee0934c18f48d3abbe64957cc47 {
+            get {
+                object obj = ResourceManager.GetObject("original-320f7ee0934c18f48d3abbe64957cc47", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -196,6 +286,76 @@ namespace iRh.Windows.Properties {
         internal static System.Drawing.Bitmap portaldoholanda_947797_imagem_foto_1amazonas {
             get {
                 object obj = ResourceManager.GetObject("portaldoholanda-947797-imagem-foto-1amazonas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap recursos_humanos {
+            get {
+                object obj = ResourceManager.GetObject("recursos-humanos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap recursos_humanos1 {
+            get {
+                object obj = ResourceManager.GetObject("recursos-humanos1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap recursos_humanos2 {
+            get {
+                object obj = ResourceManager.GetObject("recursos-humanos2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tecnologia_no_RH_1 {
+            get {
+                object obj = ResourceManager.GetObject("tecnologia-no-RH-1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tecnologia_no_RH_11 {
+            get {
+                object obj = ResourceManager.GetObject("tecnologia-no-RH-11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tecnologia_no_RH_12 {
+            get {
+                object obj = ResourceManager.GetObject("tecnologia-no-RH-12", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap whatsapp {
+            get {
+                object obj = ResourceManager.GetObject("whatsapp", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

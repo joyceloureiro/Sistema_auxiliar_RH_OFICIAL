@@ -53,6 +53,8 @@
       <DependentUpon>frmFuncionarios.cs</DependentUpon>
     </Compile>
     <Compile Include="Core\AdicionalNoturno.cs" />
+    <Compile Include="Core\Colaborador.cs" />
+    <Compile Include="Core\Estados.cs" />
     <Compile Include="Core\Fgts.cs" />
     <Compile Include="Core\HoraExtra.cs" />
     <Compile Include="Core\Inss.cs" />
@@ -229,6 +231,54 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\portaldoholanda-947797-imagem-foto-1amazonas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elementos-recursos-humanos1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caneta-azul-novo-album.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recursos-humanos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recursos-humanos1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\original-320f7ee0934c18f48d3abbe64957cc47.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tecnologia-no-RH-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inovando-RH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\whatsapp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\900-473-rh-operacional-e-rh-estrategico.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tecnologia-no-RH-11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recursos-humanos2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frh1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tecnologia-no-RH-12.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

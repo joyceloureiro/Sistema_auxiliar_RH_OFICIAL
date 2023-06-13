@@ -45,7 +45,7 @@
             this.lblHorasExtrasTrabalhadas.AutoSize = true;
             this.lblHorasExtrasTrabalhadas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.lblHorasExtrasTrabalhadas.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHorasExtrasTrabalhadas.Location = new System.Drawing.Point(28, 129);
+            this.lblHorasExtrasTrabalhadas.Location = new System.Drawing.Point(28, 211);
             this.lblHorasExtrasTrabalhadas.Name = "lblHorasExtrasTrabalhadas";
             this.lblHorasExtrasTrabalhadas.Size = new System.Drawing.Size(314, 21);
             this.lblHorasExtrasTrabalhadas.TabIndex = 26;
@@ -63,7 +63,7 @@
             this.lblHorasTrabalhadasMes.AutoSize = true;
             this.lblHorasTrabalhadasMes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.lblHorasTrabalhadasMes.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHorasTrabalhadasMes.Location = new System.Drawing.Point(33, 213);
+            this.lblHorasTrabalhadasMes.Location = new System.Drawing.Point(28, 130);
             this.lblHorasTrabalhadasMes.Name = "lblHorasTrabalhadasMes";
             this.lblHorasTrabalhadasMes.Size = new System.Drawing.Size(223, 21);
             this.lblHorasTrabalhadasMes.TabIndex = 24;

@@ -28,71 +28,38 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.cmbGenero = new System.Windows.Forms.ComboBox();
-            this.rdTemFilhosNao = new System.Windows.Forms.RadioButton();
-            this.rdTemFilhosSim = new System.Windows.Forms.RadioButton();
-            this.lblTenFilhos = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtFilhoNome = new System.Windows.Forms.TextBox();
-            this.lblIDataNascimento = new System.Windows.Forms.Label();
-            this.lblNomeFilho = new System.Windows.Forms.Label();
-            this.lblIdade = new System.Windows.Forms.Label();
-            this.panalExibeDadosFilhos = new System.Windows.Forms.Panel();
-            this.txtFilhoDataNascimento = new System.Windows.Forms.MaskedTextBox();
-            this.panalExibeDadosFilhos.SuspendLayout();
+            this.txtNome = new System.Windows.Forms.TextBox();
+            this.lblNome = new System.Windows.Forms.Label();
+            this.lblCpf = new System.Windows.Forms.Label();
+            this.txtCpf = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.lblDataNascimento = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.maskedTextBoxDataNascimento = new System.Windows.Forms.MaskedTextBox();
+            this.lblCep = new System.Windows.Forms.Label();
+            this.txtCep = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.lblNumero = new System.Windows.Forms.Label();
+            this.txtNumero = new System.Windows.Forms.TextBox();
+            this.lblLogadouro = new System.Windows.Forms.Label();
+            this.txtLogadouro = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.lblUfEstado = new System.Windows.Forms.Label();
+            this.lblBairo = new System.Windows.Forms.Label();
+            this.txtBairro = new System.Windows.Forms.TextBox();
+            this.lblCidade = new System.Windows.Forms.Label();
+            this.txtCidade = new System.Windows.Forms.TextBox();
+            this.bntPesquisar = new System.Windows.Forms.Button();
+            this.lblTelefone = new System.Windows.Forms.Label();
+            this.txtTelefone = new System.Windows.Forms.TextBox();
+            this.lblDdd = new System.Windows.Forms.Label();
+            this.txtDdd = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.btnImagemWhatszap = new System.Windows.Forms.Button();
+            this.cmbEstados = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
-            // 
-            // cmbGenero
-            // 
-            this.cmbGenero.FormattingEnabled = true;
-            this.cmbGenero.Items.AddRange(new object[] {
-            "feminino",
-            "masculino",
-            "binario",
-            "poliflagtal-genero",
-            "pansexual",
-            "assexual",
-            "trans feminino",
-            "trans masculino",
-            "ceterogeno",
-            "não decidi"});
-            this.cmbGenero.Location = new System.Drawing.Point(47, 44);
-            this.cmbGenero.Name = "cmbGenero";
-            this.cmbGenero.Size = new System.Drawing.Size(209, 21);
-            this.cmbGenero.TabIndex = 0;
-            // 
-            // rdTemFilhosNao
-            // 
-            this.rdTemFilhosNao.AutoSize = true;
-            this.rdTemFilhosNao.Location = new System.Drawing.Point(125, 142);
-            this.rdTemFilhosNao.Name = "rdTemFilhosNao";
-            this.rdTemFilhosNao.Size = new System.Drawing.Size(51, 17);
-            this.rdTemFilhosNao.TabIndex = 1;
-            this.rdTemFilhosNao.TabStop = true;
-            this.rdTemFilhosNao.Text = "NÂO!";
-            this.rdTemFilhosNao.UseVisualStyleBackColor = true;
-            this.rdTemFilhosNao.CheckedChanged += new System.EventHandler(this.rdTemFilhosNao_CheckedChanged);
-            // 
-            // rdTemFilhosSim
-            // 
-            this.rdTemFilhosSim.AutoSize = true;
-            this.rdTemFilhosSim.Location = new System.Drawing.Point(47, 142);
-            this.rdTemFilhosSim.Name = "rdTemFilhosSim";
-            this.rdTemFilhosSim.Size = new System.Drawing.Size(44, 17);
-            this.rdTemFilhosSim.TabIndex = 2;
-            this.rdTemFilhosSim.TabStop = true;
-            this.rdTemFilhosSim.Text = "SIM";
-            this.rdTemFilhosSim.UseVisualStyleBackColor = true;
-            this.rdTemFilhosSim.CheckedChanged += new System.EventHandler(this.rdTemFilhosSim_CheckedChanged);
-            // 
-            // lblTenFilhos
-            // 
-            this.lblTenFilhos.AutoSize = true;
-            this.lblTenFilhos.Location = new System.Drawing.Point(44, 107);
-            this.lblTenFilhos.Name = "lblTenFilhos";
-            this.lblTenFilhos.Size = new System.Drawing.Size(109, 13);
-            this.lblTenFilhos.TabIndex = 3;
-            this.lblTenFilhos.Text = "VOCE TEM FILHOS?";
             // 
             // label2
             // 
@@ -102,96 +69,335 @@
             this.label2.Size = new System.Drawing.Size(0, 13);
             this.label2.TabIndex = 4;
             // 
-            // txtFilhoNome
+            // txtNome
             // 
-            this.txtFilhoNome.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.txtFilhoNome.Location = new System.Drawing.Point(3, 44);
-            this.txtFilhoNome.Name = "txtFilhoNome";
-            this.txtFilhoNome.Size = new System.Drawing.Size(147, 20);
-            this.txtFilhoNome.TabIndex = 5;
+            this.txtNome.Location = new System.Drawing.Point(88, 49);
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(163, 20);
+            this.txtNome.TabIndex = 5;
             // 
-            // lblIDataNascimento
+            // lblNome
             // 
-            this.lblIDataNascimento.AutoSize = true;
-            this.lblIDataNascimento.Location = new System.Drawing.Point(183, 17);
-            this.lblIDataNascimento.Name = "lblIDataNascimento";
-            this.lblIDataNascimento.Size = new System.Drawing.Size(131, 13);
-            this.lblIDataNascimento.TabIndex = 7;
-            this.lblIDataNascimento.Text = "DATA DE NASCIMENTO:";
+            this.lblNome.AutoSize = true;
+            this.lblNome.Location = new System.Drawing.Point(85, 33);
+            this.lblNome.Name = "lblNome";
+            this.lblNome.Size = new System.Drawing.Size(39, 13);
+            this.lblNome.TabIndex = 6;
+            this.lblNome.Text = "NOME";
             // 
-            // lblNomeFilho
+            // lblCpf
             // 
-            this.lblNomeFilho.AutoSize = true;
-            this.lblNomeFilho.Location = new System.Drawing.Point(3, 17);
-            this.lblNomeFilho.Name = "lblNomeFilho";
-            this.lblNomeFilho.Size = new System.Drawing.Size(120, 13);
-            this.lblNomeFilho.TabIndex = 8;
-            this.lblNomeFilho.Text = "NOME DO SEU FILHO:";
+            this.lblCpf.AutoSize = true;
+            this.lblCpf.Location = new System.Drawing.Point(324, 33);
+            this.lblCpf.Name = "lblCpf";
+            this.lblCpf.Size = new System.Drawing.Size(27, 13);
+            this.lblCpf.TabIndex = 9;
+            this.lblCpf.Text = "CPF";
             // 
-            // lblIdade
+            // txtCpf
             // 
-            this.lblIdade.AutoSize = true;
-            this.lblIdade.Location = new System.Drawing.Point(329, 47);
-            this.lblIdade.Name = "lblIdade";
-            this.lblIdade.Size = new System.Drawing.Size(33, 13);
-            this.lblIdade.TabIndex = 9;
-            this.lblIdade.Text = "idade";
+            this.txtCpf.Location = new System.Drawing.Point(327, 49);
+            this.txtCpf.Name = "txtCpf";
+            this.txtCpf.Size = new System.Drawing.Size(170, 20);
+            this.txtCpf.TabIndex = 8;
             // 
-            // panalExibeDadosFilhos
+            // label3
             // 
-            this.panalExibeDadosFilhos.Controls.Add(this.txtFilhoDataNascimento);
-            this.panalExibeDadosFilhos.Controls.Add(this.lblNomeFilho);
-            this.panalExibeDadosFilhos.Controls.Add(this.lblIdade);
-            this.panalExibeDadosFilhos.Controls.Add(this.txtFilhoNome);
-            this.panalExibeDadosFilhos.Controls.Add(this.lblIDataNascimento);
-            this.panalExibeDadosFilhos.Location = new System.Drawing.Point(47, 176);
-            this.panalExibeDadosFilhos.Name = "panalExibeDadosFilhos";
-            this.panalExibeDadosFilhos.Size = new System.Drawing.Size(385, 80);
-            this.panalExibeDadosFilhos.TabIndex = 10;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(193, 202);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(0, 13);
+            this.label3.TabIndex = 7;
             // 
-            // txtFilhoDataNascimento
+            // lblDataNascimento
             // 
-            this.txtFilhoDataNascimento.Location = new System.Drawing.Point(186, 44);
-            this.txtFilhoDataNascimento.Mask = "00/00/0000";
-            this.txtFilhoDataNascimento.Name = "txtFilhoDataNascimento";
-            this.txtFilhoDataNascimento.Size = new System.Drawing.Size(70, 20);
-            this.txtFilhoDataNascimento.TabIndex = 11;
-            this.txtFilhoDataNascimento.ValidatingType = typeof(System.DateTime);
-            this.txtFilhoDataNascimento.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtFilhoDataNascimento_KeyDown);
+            this.lblDataNascimento.AutoSize = true;
+            this.lblDataNascimento.Location = new System.Drawing.Point(85, 94);
+            this.lblDataNascimento.Name = "lblDataNascimento";
+            this.lblDataNascimento.Size = new System.Drawing.Size(128, 13);
+            this.lblDataNascimento.TabIndex = 12;
+            this.lblDataNascimento.Text = "DATA DE NASCIMENTO";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(422, 249);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(0, 13);
+            this.label4.TabIndex = 10;
+            // 
+            // maskedTextBoxDataNascimento
+            // 
+            this.maskedTextBoxDataNascimento.Location = new System.Drawing.Point(87, 110);
+            this.maskedTextBoxDataNascimento.Mask = "00/00/0000";
+            this.maskedTextBoxDataNascimento.Name = "maskedTextBoxDataNascimento";
+            this.maskedTextBoxDataNascimento.Size = new System.Drawing.Size(100, 20);
+            this.maskedTextBoxDataNascimento.TabIndex = 13;
+            this.maskedTextBoxDataNascimento.ValidatingType = typeof(System.DateTime);
+            // 
+            // lblCep
+            // 
+            this.lblCep.AutoSize = true;
+            this.lblCep.Location = new System.Drawing.Point(324, 94);
+            this.lblCep.Name = "lblCep";
+            this.lblCep.Size = new System.Drawing.Size(28, 13);
+            this.lblCep.TabIndex = 16;
+            this.lblCep.Text = "CEP";
+            // 
+            // txtCep
+            // 
+            this.txtCep.Location = new System.Drawing.Point(327, 110);
+            this.txtCep.Name = "txtCep";
+            this.txtCep.Size = new System.Drawing.Size(170, 20);
+            this.txtCep.TabIndex = 15;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(422, 249);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(0, 13);
+            this.label5.TabIndex = 14;
+            // 
+            // lblNumero
+            // 
+            this.lblNumero.AutoSize = true;
+            this.lblNumero.Location = new System.Drawing.Point(314, 155);
+            this.lblNumero.Name = "lblNumero";
+            this.lblNumero.Size = new System.Drawing.Size(55, 13);
+            this.lblNumero.TabIndex = 21;
+            this.lblNumero.Text = "NUMERO";
+            // 
+            // txtNumero
+            // 
+            this.txtNumero.Location = new System.Drawing.Point(317, 171);
+            this.txtNumero.Name = "txtNumero";
+            this.txtNumero.Size = new System.Drawing.Size(52, 20);
+            this.txtNumero.TabIndex = 20;
+            // 
+            // lblLogadouro
+            // 
+            this.lblLogadouro.AutoSize = true;
+            this.lblLogadouro.Location = new System.Drawing.Point(84, 155);
+            this.lblLogadouro.Name = "lblLogadouro";
+            this.lblLogadouro.Size = new System.Drawing.Size(76, 13);
+            this.lblLogadouro.TabIndex = 19;
+            this.lblLogadouro.Text = "LOGADOURO";
+            // 
+            // txtLogadouro
+            // 
+            this.txtLogadouro.Location = new System.Drawing.Point(87, 171);
+            this.txtLogadouro.Name = "txtLogadouro";
+            this.txtLogadouro.Size = new System.Drawing.Size(215, 20);
+            this.txtLogadouro.TabIndex = 18;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(217, 293);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(0, 13);
+            this.label7.TabIndex = 17;
+            // 
+            // lblUfEstado
+            // 
+            this.lblUfEstado.AutoSize = true;
+            this.lblUfEstado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.lblUfEstado.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.lblUfEstado.Location = new System.Drawing.Point(84, 202);
+            this.lblUfEstado.Name = "lblUfEstado";
+            this.lblUfEstado.Size = new System.Drawing.Size(70, 13);
+            this.lblUfEstado.TabIndex = 28;
+            this.lblUfEstado.Text = "UF/ESTADO";
+            // 
+            // lblBairo
+            // 
+            this.lblBairo.AutoSize = true;
+            this.lblBairo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.lblBairo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.lblBairo.Location = new System.Drawing.Point(388, 155);
+            this.lblBairo.Name = "lblBairo";
+            this.lblBairo.Size = new System.Drawing.Size(48, 13);
+            this.lblBairo.TabIndex = 26;
+            this.lblBairo.Text = "BAIRRO";
+            // 
+            // txtBairro
+            // 
+            this.txtBairro.Location = new System.Drawing.Point(391, 171);
+            this.txtBairro.Name = "txtBairro";
+            this.txtBairro.Size = new System.Drawing.Size(175, 20);
+            this.txtBairro.TabIndex = 25;
+            // 
+            // lblCidade
+            // 
+            this.lblCidade.AutoSize = true;
+            this.lblCidade.Location = new System.Drawing.Point(229, 202);
+            this.lblCidade.Name = "lblCidade";
+            this.lblCidade.Size = new System.Drawing.Size(47, 13);
+            this.lblCidade.TabIndex = 30;
+            this.lblCidade.Text = "CIDADE";
+            // 
+            // txtCidade
+            // 
+            this.txtCidade.Location = new System.Drawing.Point(232, 219);
+            this.txtCidade.Name = "txtCidade";
+            this.txtCidade.Size = new System.Drawing.Size(170, 20);
+            this.txtCidade.TabIndex = 29;
+            // 
+            // bntPesquisar
+            // 
+            this.bntPesquisar.Location = new System.Drawing.Point(526, 110);
+            this.bntPesquisar.Name = "bntPesquisar";
+            this.bntPesquisar.Size = new System.Drawing.Size(75, 23);
+            this.bntPesquisar.TabIndex = 31;
+            this.bntPesquisar.Text = "pesquisar";
+            this.bntPesquisar.UseVisualStyleBackColor = true;
+            // 
+            // lblTelefone
+            // 
+            this.lblTelefone.AutoSize = true;
+            this.lblTelefone.Location = new System.Drawing.Point(471, 202);
+            this.lblTelefone.Name = "lblTelefone";
+            this.lblTelefone.Size = new System.Drawing.Size(64, 13);
+            this.lblTelefone.TabIndex = 36;
+            this.lblTelefone.Text = "TELEFOME";
+            // 
+            // txtTelefone
+            // 
+            this.txtTelefone.Location = new System.Drawing.Point(474, 218);
+            this.txtTelefone.Name = "txtTelefone";
+            this.txtTelefone.Size = new System.Drawing.Size(168, 20);
+            this.txtTelefone.TabIndex = 35;
+            // 
+            // lblDdd
+            // 
+            this.lblDdd.AutoSize = true;
+            this.lblDdd.Location = new System.Drawing.Point(434, 202);
+            this.lblDdd.Name = "lblDdd";
+            this.lblDdd.Size = new System.Drawing.Size(31, 13);
+            this.lblDdd.TabIndex = 34;
+            this.lblDdd.Text = "DDD";
+            // 
+            // txtDdd
+            // 
+            this.txtDdd.Location = new System.Drawing.Point(437, 219);
+            this.txtDdd.Name = "txtDdd";
+            this.txtDdd.Size = new System.Drawing.Size(28, 20);
+            this.txtDdd.TabIndex = 33;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(302, 256);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(0, 13);
+            this.label8.TabIndex = 32;
+            // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Location = new System.Drawing.Point(645, 244);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(107, 13);
+            this.linkLabel1.TabIndex = 37;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "CHAMA NO WHATS";
+            // 
+            // btnImagemWhatszap
+            // 
+            this.btnImagemWhatszap.BackgroundImage = global::iRh.Windows.Properties.Resources.whatsapp;
+            this.btnImagemWhatszap.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnImagemWhatszap.Location = new System.Drawing.Point(648, 202);
+            this.btnImagemWhatszap.Name = "btnImagemWhatszap";
+            this.btnImagemWhatszap.Size = new System.Drawing.Size(44, 39);
+            this.btnImagemWhatszap.TabIndex = 38;
+            this.btnImagemWhatszap.UseVisualStyleBackColor = true;
+            // 
+            // cmbEstados
+            // 
+            this.cmbEstados.FormattingEnabled = true;
+            this.cmbEstados.Location = new System.Drawing.Point(87, 218);
+            this.cmbEstados.Name = "cmbEstados";
+            this.cmbEstados.Size = new System.Drawing.Size(121, 21);
+            this.cmbEstados.TabIndex = 40;
             // 
             // frmFuncionarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.BackgroundImage = global::iRh.Windows.Properties.Resources.tecnologia_no_RH_12;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.panalExibeDadosFilhos);
+            this.Controls.Add(this.cmbEstados);
+            this.Controls.Add(this.btnImagemWhatszap);
+            this.Controls.Add(this.linkLabel1);
+            this.Controls.Add(this.lblTelefone);
+            this.Controls.Add(this.txtTelefone);
+            this.Controls.Add(this.lblDdd);
+            this.Controls.Add(this.txtDdd);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.bntPesquisar);
+            this.Controls.Add(this.lblCidade);
+            this.Controls.Add(this.txtCidade);
+            this.Controls.Add(this.lblUfEstado);
+            this.Controls.Add(this.lblBairo);
+            this.Controls.Add(this.txtBairro);
+            this.Controls.Add(this.lblNumero);
+            this.Controls.Add(this.txtNumero);
+            this.Controls.Add(this.lblLogadouro);
+            this.Controls.Add(this.txtLogadouro);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.lblCep);
+            this.Controls.Add(this.txtCep);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.maskedTextBoxDataNascimento);
+            this.Controls.Add(this.lblDataNascimento);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.lblCpf);
+            this.Controls.Add(this.txtCpf);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.lblNome);
+            this.Controls.Add(this.txtNome);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.lblTenFilhos);
-            this.Controls.Add(this.rdTemFilhosSim);
-            this.Controls.Add(this.rdTemFilhosNao);
-            this.Controls.Add(this.cmbGenero);
             this.Name = "frmFuncionarios";
             this.Text = "frmFuncionarios";
             this.Load += new System.EventHandler(this.frmFuncionarios_Load);
-            this.panalExibeDadosFilhos.ResumeLayout(false);
-            this.panalExibeDadosFilhos.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.ComboBox cmbGenero;
-        private System.Windows.Forms.RadioButton rdTemFilhosNao;
-        private System.Windows.Forms.RadioButton rdTemFilhosSim;
-        private System.Windows.Forms.Label lblTenFilhos;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtFilhoNome;
-        private System.Windows.Forms.Label lblIDataNascimento;
-        private System.Windows.Forms.Label lblNomeFilho;
-        private System.Windows.Forms.Label lblIdade;
-        private System.Windows.Forms.Panel panalExibeDadosFilhos;
-        private System.Windows.Forms.MaskedTextBox txtFilhoDataNascimento;
+        private System.Windows.Forms.TextBox txtNome;
+        private System.Windows.Forms.Label lblNome;
+        private System.Windows.Forms.Label lblCpf;
+        private System.Windows.Forms.TextBox txtCpf;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lblDataNascimento;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.MaskedTextBox maskedTextBoxDataNascimento;
+        private System.Windows.Forms.Label lblCep;
+        private System.Windows.Forms.TextBox txtCep;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lblNumero;
+        private System.Windows.Forms.TextBox txtNumero;
+        private System.Windows.Forms.Label lblLogadouro;
+        private System.Windows.Forms.TextBox txtLogadouro;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label lblUfEstado;
+        private System.Windows.Forms.Label lblBairo;
+        private System.Windows.Forms.TextBox txtBairro;
+        private System.Windows.Forms.Label lblCidade;
+        private System.Windows.Forms.TextBox txtCidade;
+        private System.Windows.Forms.Button bntPesquisar;
+        private System.Windows.Forms.Label lblTelefone;
+        private System.Windows.Forms.TextBox txtTelefone;
+        private System.Windows.Forms.Label lblDdd;
+        private System.Windows.Forms.TextBox txtDdd;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.Button btnImagemWhatszap;
+        private System.Windows.Forms.ComboBox cmbEstados;
     }
 }

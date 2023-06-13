@@ -81,7 +81,7 @@
             this.panelResultadoPis.AutoSize = true;
             this.panelResultadoPis.BackColor = System.Drawing.Color.Transparent;
             this.panelResultadoPis.Controls.Add(this.lblMostrarResultadoPis);
-            this.panelResultadoPis.Location = new System.Drawing.Point(514, 227);
+            this.panelResultadoPis.Location = new System.Drawing.Point(474, 227);
             this.panelResultadoPis.Name = "panelResultadoPis";
             this.panelResultadoPis.Size = new System.Drawing.Size(153, 83);
             this.panelResultadoPis.TabIndex = 22;
