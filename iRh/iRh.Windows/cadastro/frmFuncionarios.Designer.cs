@@ -59,6 +59,8 @@
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.btnImagemWhatszap = new System.Windows.Forms.Button();
             this.cmbEstados = new System.Windows.Forms.ComboBox();
+            this.cmbDocumento = new System.Windows.Forms.ComboBox();
+            this.lblDocumento = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label2
@@ -202,7 +204,7 @@
             // lblUfEstado
             // 
             this.lblUfEstado.AutoSize = true;
-            this.lblUfEstado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.lblUfEstado.BackColor = System.Drawing.Color.Transparent;
             this.lblUfEstado.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.lblUfEstado.Location = new System.Drawing.Point(84, 202);
             this.lblUfEstado.Name = "lblUfEstado";
@@ -213,7 +215,7 @@
             // lblBairo
             // 
             this.lblBairo.AutoSize = true;
-            this.lblBairo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.lblBairo.BackColor = System.Drawing.Color.Transparent;
             this.lblBairo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.lblBairo.Location = new System.Drawing.Point(388, 155);
             this.lblBairo.Name = "lblBairo";
@@ -252,6 +254,7 @@
             this.bntPesquisar.TabIndex = 31;
             this.bntPesquisar.Text = "pesquisar";
             this.bntPesquisar.UseVisualStyleBackColor = true;
+            this.bntPesquisar.Click += new System.EventHandler(this.bntPesquisar_Click);
             // 
             // lblTelefone
             // 
@@ -321,13 +324,31 @@
             this.cmbEstados.Size = new System.Drawing.Size(121, 21);
             this.cmbEstados.TabIndex = 40;
             // 
+            // cmbDocumento
+            // 
+            this.cmbDocumento.FormattingEnabled = true;
+            this.cmbDocumento.Location = new System.Drawing.Point(526, 49);
+            this.cmbDocumento.Name = "cmbDocumento";
+            this.cmbDocumento.Size = new System.Drawing.Size(121, 21);
+            this.cmbDocumento.TabIndex = 42;
+            // 
+            // lblDocumento
+            // 
+            this.lblDocumento.AutoSize = true;
+            this.lblDocumento.Location = new System.Drawing.Point(524, 33);
+            this.lblDocumento.Name = "lblDocumento";
+            this.lblDocumento.Size = new System.Drawing.Size(77, 13);
+            this.lblDocumento.TabIndex = 43;
+            this.lblDocumento.Text = "DOCUMENTO";
+            // 
             // frmFuncionarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.BackgroundImage = global::iRh.Windows.Properties.Resources.tecnologia_no_RH_12;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblDocumento);
+            this.Controls.Add(this.cmbDocumento);
             this.Controls.Add(this.cmbEstados);
             this.Controls.Add(this.btnImagemWhatszap);
             this.Controls.Add(this.linkLabel1);
@@ -359,9 +380,10 @@
             this.Controls.Add(this.lblNome);
             this.Controls.Add(this.txtNome);
             this.Controls.Add(this.label2);
+            this.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.Name = "frmFuncionarios";
             this.Text = "frmFuncionarios";
-            this.Load += new System.EventHandler(this.frmFuncionarios_Load);
+            this.Load += new System.EventHandler(this.frmFuncionarios_Load_1);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -399,5 +421,7 @@
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.Button btnImagemWhatszap;
         private System.Windows.Forms.ComboBox cmbEstados;
+        private System.Windows.Forms.ComboBox cmbDocumento;
+        private System.Windows.Forms.Label lblDocumento;
     }
 }

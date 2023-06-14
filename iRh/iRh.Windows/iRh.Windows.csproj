@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -52,8 +55,11 @@
     <Compile Include="cadastro\frmFuncionarios.Designer.cs">
       <DependentUpon>frmFuncionarios.cs</DependentUpon>
     </Compile>
+    <Compile Include="cadastro\HttpCliente.cs" />
     <Compile Include="Core\AdicionalNoturno.cs" />
     <Compile Include="Core\Colaborador.cs" />
+    <Compile Include="Core\Documento.cs" />
+    <Compile Include="Core\Endereco.cs" />
     <Compile Include="Core\Estados.cs" />
     <Compile Include="Core\Fgts.cs" />
     <Compile Include="Core\HoraExtra.cs" />
@@ -177,6 +183,7 @@
     <EmbeddedResource Include="simuladores\frmDescontoIrrf.resx">
       <DependentUpon>frmDescontoIrrf.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
