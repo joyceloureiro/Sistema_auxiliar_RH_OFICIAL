@@ -38,7 +38,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.maskedTextBoxDataNascimento = new System.Windows.Forms.MaskedTextBox();
             this.lblCep = new System.Windows.Forms.Label();
-            this.txtCep = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.lblNumero = new System.Windows.Forms.Label();
             this.txtNumero = new System.Windows.Forms.TextBox();
@@ -52,7 +51,6 @@
             this.txtCidade = new System.Windows.Forms.TextBox();
             this.bntPesquisar = new System.Windows.Forms.Button();
             this.lblTelefone = new System.Windows.Forms.Label();
-            this.txtTelefone = new System.Windows.Forms.TextBox();
             this.lblDdd = new System.Windows.Forms.Label();
             this.txtDdd = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
@@ -61,6 +59,9 @@
             this.cmbEstados = new System.Windows.Forms.ComboBox();
             this.cmbDocumento = new System.Windows.Forms.ComboBox();
             this.lblDocumento = new System.Windows.Forms.Label();
+            this.bntEnter = new System.Windows.Forms.Button();
+            this.txtCep = new System.Windows.Forms.MaskedTextBox();
+            this.txtTelefone = new System.Windows.Forms.MaskedTextBox();
             this.SuspendLayout();
             // 
             // label2
@@ -77,6 +78,7 @@
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(163, 20);
             this.txtNome.TabIndex = 5;
+            this.txtNome.TextChanged += new System.EventHandler(this.txtNome_TextChanged);
             // 
             // lblNome
             // 
@@ -99,9 +101,11 @@
             // txtCpf
             // 
             this.txtCpf.Location = new System.Drawing.Point(327, 49);
+            this.txtCpf.MaxLength = 11;
             this.txtCpf.Name = "txtCpf";
             this.txtCpf.Size = new System.Drawing.Size(170, 20);
             this.txtCpf.TabIndex = 8;
+            this.txtCpf.TextChanged += new System.EventHandler(this.txtCpf_TextChanged);
             // 
             // label3
             // 
@@ -146,13 +150,6 @@
             this.lblCep.TabIndex = 16;
             this.lblCep.Text = "CEP";
             // 
-            // txtCep
-            // 
-            this.txtCep.Location = new System.Drawing.Point(327, 110);
-            this.txtCep.Name = "txtCep";
-            this.txtCep.Size = new System.Drawing.Size(170, 20);
-            this.txtCep.TabIndex = 15;
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -176,6 +173,7 @@
             this.txtNumero.Name = "txtNumero";
             this.txtNumero.Size = new System.Drawing.Size(52, 20);
             this.txtNumero.TabIndex = 20;
+            this.txtNumero.TextChanged += new System.EventHandler(this.txtNumero_TextChanged_1);
             // 
             // lblLogadouro
             // 
@@ -192,6 +190,7 @@
             this.txtLogadouro.Name = "txtLogadouro";
             this.txtLogadouro.Size = new System.Drawing.Size(215, 20);
             this.txtLogadouro.TabIndex = 18;
+            this.txtLogadouro.TextChanged += new System.EventHandler(this.txtLogadouro_TextChanged);
             // 
             // label7
             // 
@@ -229,6 +228,7 @@
             this.txtBairro.Name = "txtBairro";
             this.txtBairro.Size = new System.Drawing.Size(175, 20);
             this.txtBairro.TabIndex = 25;
+            this.txtBairro.TextChanged += new System.EventHandler(this.txtBairro_TextChanged);
             // 
             // lblCidade
             // 
@@ -245,10 +245,11 @@
             this.txtCidade.Name = "txtCidade";
             this.txtCidade.Size = new System.Drawing.Size(170, 20);
             this.txtCidade.TabIndex = 29;
+            this.txtCidade.TextChanged += new System.EventHandler(this.txtCidade_TextChanged);
             // 
             // bntPesquisar
             // 
-            this.bntPesquisar.Location = new System.Drawing.Point(526, 110);
+            this.bntPesquisar.Location = new System.Drawing.Point(460, 108);
             this.bntPesquisar.Name = "bntPesquisar";
             this.bntPesquisar.Size = new System.Drawing.Size(75, 23);
             this.bntPesquisar.TabIndex = 31;
@@ -261,16 +262,9 @@
             this.lblTelefone.AutoSize = true;
             this.lblTelefone.Location = new System.Drawing.Point(471, 202);
             this.lblTelefone.Name = "lblTelefone";
-            this.lblTelefone.Size = new System.Drawing.Size(64, 13);
+            this.lblTelefone.Size = new System.Drawing.Size(63, 13);
             this.lblTelefone.TabIndex = 36;
-            this.lblTelefone.Text = "TELEFOME";
-            // 
-            // txtTelefone
-            // 
-            this.txtTelefone.Location = new System.Drawing.Point(474, 218);
-            this.txtTelefone.Name = "txtTelefone";
-            this.txtTelefone.Size = new System.Drawing.Size(168, 20);
-            this.txtTelefone.TabIndex = 35;
+            this.lblTelefone.Text = "TELEFONE";
             // 
             // lblDdd
             // 
@@ -284,9 +278,11 @@
             // txtDdd
             // 
             this.txtDdd.Location = new System.Drawing.Point(437, 219);
+            this.txtDdd.MaxLength = 2;
             this.txtDdd.Name = "txtDdd";
             this.txtDdd.Size = new System.Drawing.Size(28, 20);
             this.txtDdd.TabIndex = 33;
+            this.txtDdd.TextChanged += new System.EventHandler(this.txtDdd_TextChanged);
             // 
             // label8
             // 
@@ -341,19 +337,47 @@
             this.lblDocumento.TabIndex = 43;
             this.lblDocumento.Text = "DOCUMENTO";
             // 
+            // bntEnter
+            // 
+            this.bntEnter.Location = new System.Drawing.Point(87, 268);
+            this.bntEnter.Name = "bntEnter";
+            this.bntEnter.Size = new System.Drawing.Size(75, 23);
+            this.bntEnter.TabIndex = 44;
+            this.bntEnter.Text = "ENTER";
+            this.bntEnter.UseVisualStyleBackColor = true;
+            this.bntEnter.Click += new System.EventHandler(this.bntEnter_Click);
+            // 
+            // txtCep
+            // 
+            this.txtCep.Location = new System.Drawing.Point(327, 111);
+            this.txtCep.Mask = "00000-000";
+            this.txtCep.Name = "txtCep";
+            this.txtCep.Size = new System.Drawing.Size(100, 20);
+            this.txtCep.TabIndex = 45;
+            // 
+            // txtTelefone
+            // 
+            this.txtTelefone.Location = new System.Drawing.Point(474, 221);
+            this.txtTelefone.Mask = "00000-0000";
+            this.txtTelefone.Name = "txtTelefone";
+            this.txtTelefone.Size = new System.Drawing.Size(100, 20);
+            this.txtTelefone.TabIndex = 46;
+            // 
             // frmFuncionarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.BackColor = System.Drawing.Color.LightSeaGreen;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtTelefone);
+            this.Controls.Add(this.txtCep);
+            this.Controls.Add(this.bntEnter);
             this.Controls.Add(this.lblDocumento);
             this.Controls.Add(this.cmbDocumento);
             this.Controls.Add(this.cmbEstados);
             this.Controls.Add(this.btnImagemWhatszap);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.lblTelefone);
-            this.Controls.Add(this.txtTelefone);
             this.Controls.Add(this.lblDdd);
             this.Controls.Add(this.txtDdd);
             this.Controls.Add(this.label8);
@@ -369,7 +393,6 @@
             this.Controls.Add(this.txtLogadouro);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.lblCep);
-            this.Controls.Add(this.txtCep);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.maskedTextBoxDataNascimento);
             this.Controls.Add(this.lblDataNascimento);
@@ -400,7 +423,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.MaskedTextBox maskedTextBoxDataNascimento;
         private System.Windows.Forms.Label lblCep;
-        private System.Windows.Forms.TextBox txtCep;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label lblNumero;
         private System.Windows.Forms.TextBox txtNumero;
@@ -414,7 +436,6 @@
         private System.Windows.Forms.TextBox txtCidade;
         private System.Windows.Forms.Button bntPesquisar;
         private System.Windows.Forms.Label lblTelefone;
-        private System.Windows.Forms.TextBox txtTelefone;
         private System.Windows.Forms.Label lblDdd;
         private System.Windows.Forms.TextBox txtDdd;
         private System.Windows.Forms.Label label8;
@@ -423,5 +444,8 @@
         private System.Windows.Forms.ComboBox cmbEstados;
         private System.Windows.Forms.ComboBox cmbDocumento;
         private System.Windows.Forms.Label lblDocumento;
+        private System.Windows.Forms.Button bntEnter;
+        private System.Windows.Forms.MaskedTextBox txtCep;
+        private System.Windows.Forms.MaskedTextBox txtTelefone;
     }
 }
