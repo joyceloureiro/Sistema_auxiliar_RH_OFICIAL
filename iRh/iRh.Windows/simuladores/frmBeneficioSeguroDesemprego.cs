@@ -11,8 +11,7 @@ namespace iRh.Windows.simuladores
         {
                InitializeComponent();
         }
-       
-                  
+                         
         private void rdDemisãoPorJustaCausaSim_CheckedChanged(object sender, EventArgs e)
         {
                MessageBox.Show("Infelismente voce não está apto a receber o seguro desemprego, por que foi mandado embora por justa causa", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);

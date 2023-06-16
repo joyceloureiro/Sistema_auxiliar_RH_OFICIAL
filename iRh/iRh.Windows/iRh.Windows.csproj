@@ -56,6 +56,7 @@
       <DependentUpon>frmFuncionarios.cs</DependentUpon>
     </Compile>
     <Compile Include="cadastro\HttpCliente.cs" />
+    <Compile Include="cadastro\HttpClienteWhats.cs" />
     <Compile Include="Core\AdicionalNoturno.cs" />
     <Compile Include="Core\Colaborador.cs" />
     <Compile Include="Core\Documento.cs" />
@@ -65,9 +66,11 @@
     <Compile Include="Core\HoraExtra.cs" />
     <Compile Include="Core\Inss.cs" />
     <Compile Include="Core\Irrf.cs" />
+    <Compile Include="Core\LinkWhats.cs" />
     <Compile Include="Core\Periculosidade.cs" />
     <Compile Include="Core\Pis.cs" />
     <Compile Include="Core\SeguroDesemprego.cs" />
+    <Compile Include="Core\SimulacaoCompleta.cs" />
     <Compile Include="Core\ValeTransporte.cs" />
     <Compile Include="PrincipalMdi.cs">
       <SubType>Form</SubType>
@@ -137,6 +140,12 @@
     <Compile Include="simuladores\frmDescontoIrrf.Designer.cs">
       <DependentUpon>frmDescontoIrrf.cs</DependentUpon>
     </Compile>
+    <Compile Include="simuladores\SistemaSimulacaoCompleta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="simuladores\SistemaSimulacaoCompleta.Designer.cs">
+      <DependentUpon>SistemaSimulacaoCompleta.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="cadastro\frmFuncionarios.resx">
       <DependentUpon>frmFuncionarios.cs</DependentUpon>
     </EmbeddedResource>
@@ -182,6 +191,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="simuladores\frmDescontoIrrf.resx">
       <DependentUpon>frmDescontoIrrf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="simuladores\SistemaSimulacaoCompleta.resx">
+      <DependentUpon>SistemaSimulacaoCompleta.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -286,6 +298,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\tecnologia-no-RH-12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inovando-RH1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\funcionarios_atribuicoes_956_667_mini %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Monitorar-funcionarios.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\funcionarios_atribuicoes_956_667_mini %281%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Monitorar-funcionarios1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

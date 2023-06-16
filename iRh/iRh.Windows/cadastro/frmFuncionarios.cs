@@ -81,6 +81,14 @@ namespace iRh.Windows.cadastro
 
           
         }
+
+        private void bntEnter_Click(object sender, EventArgs e)
+        {
+            txtCidade.Enabled = false;
+            txtDdd.Enabled = false;
+            cmbEstados.Enabled = false;
+        }
+
         private void txtCep_TextChanged(object sender, EventArgs e)
         {
             if (System.Text.RegularExpressions.Regex.IsMatch(txtCep.Text, "[^0-9]"))
@@ -98,14 +106,7 @@ namespace iRh.Windows.cadastro
                 txtNumero.Text = txtNumero.Text.Remove(txtNumero.Text.Length - 1);
             }
         }
-
-        private void bntEnter_Click(object sender, EventArgs e)
-        {
-            txtCidade.Enabled = false;
-            txtDdd.Enabled = false;
-            cmbEstados.Enabled = false;
-        }
-
+               
         private void txtCidade_TextChanged(object sender, EventArgs e)
         {
             if (System.Text.RegularExpressions.Regex.IsMatch(txtCidade.Text, "[^a-z]"))
@@ -158,6 +159,13 @@ namespace iRh.Windows.cadastro
                 MessageBox.Show("Por favor, só digite numeros.");
                 txtCpf.Text = txtCpf.Text.Remove(txtCpf.Text.Length - 1);
             }
+        }
+                
+        private void linkLblWhats_TextChanged(object sender, EventArgs e)
+        {
+            var whatsNumero = linkLblWhats.Text;
+            var whatsapp = new LinkWhats();
+            whatsapp = LinkWhats.ObterPorWhats(whatsNumero);
         }
     }
 }

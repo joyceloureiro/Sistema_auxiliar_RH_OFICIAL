@@ -193,6 +193,26 @@ namespace iRh.Windows.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap funcionarios_atribuicoes_956_667_mini__1_ {
+            get {
+                object obj = ResourceManager.GetObject("funcionarios_atribuicoes_956_667_mini (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap funcionarios_atribuicoes_956_667_mini__1_1 {
+            get {
+                object obj = ResourceManager.GetObject("funcionarios_atribuicoes_956_667_mini (1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap images__1_ {
             get {
                 object obj = ResourceManager.GetObject("images (1)", resourceCulture);
@@ -243,9 +263,39 @@ namespace iRh.Windows.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Inovando_RH1 {
+            get {
+                object obj = ResourceManager.GetObject("Inovando-RH1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap inss {
             get {
                 object obj = ResourceManager.GetObject("inss", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Monitorar_funcionarios {
+            get {
+                object obj = ResourceManager.GetObject("Monitorar-funcionarios", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Monitorar_funcionarios1 {
+            get {
+                object obj = ResourceManager.GetObject("Monitorar-funcionarios1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

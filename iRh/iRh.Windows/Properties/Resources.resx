@@ -118,20 +118,26 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="elementos-recursos-humanos" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\elementos-recursos-humanos.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="900-473-rh-operacional-e-rh-estrategico" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\900-473-rh-operacional-e-rh-estrategico.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tecnologia-no-RH-12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tecnologia-no-RH-12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="original-320f7ee0934c18f48d3abbe64957cc47" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\original-320f7ee0934c18f48d3abbe64957cc47.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="funcionarios_atribuicoes_956_667_mini (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\funcionarios_atribuicoes_956_667_mini (1)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="caneta-azul-novo-album" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\caneta-azul-novo-album.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="tecnologia-no-RH-11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tecnologia-no-RH-11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Inovando-RH1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Inovando-RH1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="funcionarios_atribuicoes_956_667_mini (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\funcionarios_atribuicoes_956_667_mini (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pagamento-pis1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pagamento-pis1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,6 +160,9 @@
   <data name="images (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="elementos-recursos-humanos1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\elementos-recursos-humanos1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="images (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images (3).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -172,9 +181,6 @@
   <data name="582810112619e1ee00d335" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\582810112619e1ee00d335.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Capa-dos-artigos-1-1024x576" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Capa-dos-artigos-1-1024x576.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="download (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download (3).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -184,14 +190,23 @@
   <data name="frh" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\frh.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Monitorar-funcionarios" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monitorar-funcionarios.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="recursos-humanos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\recursos-humanos.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="elementos-recursos-humanos1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\elementos-recursos-humanos1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="elementos-recursos-humanos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\elementos-recursos-humanos.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tecnologia-no-RH-11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tecnologia-no-RH-11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="recursos-humanos2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\recursos-humanos2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Capa-dos-artigos-1-1024x576" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Capa-dos-artigos-1-1024x576.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="frh1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\frh1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -205,7 +220,7 @@
   <data name="tecnologia-no-RH-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tecnologia-no-RH-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="tecnologia-no-RH-12" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tecnologia-no-RH-12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Monitorar-funcionarios1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monitorar-funcionarios1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
