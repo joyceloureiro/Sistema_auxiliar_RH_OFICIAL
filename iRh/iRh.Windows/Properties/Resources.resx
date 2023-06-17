@@ -127,6 +127,9 @@
   <data name="original-320f7ee0934c18f48d3abbe64957cc47" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\original-320f7ee0934c18f48d3abbe64957cc47.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="582810112619e1ee00d3351" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\582810112619e1ee00d3351.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="funcionarios_atribuicoes_956_667_mini (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\funcionarios_atribuicoes_956_667_mini (1)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -214,13 +217,16 @@
   <data name="pagamento-pis" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pagamento-pis.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Monitorar-funcionarios1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monitorar-funcionarios1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="images (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images (4).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tecnologia-no-RH-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tecnologia-no-RH-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Monitorar-funcionarios1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Monitorar-funcionarios1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="900-473-rh-operacional-e-rh-estrategico1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\900-473-rh-operacional-e-rh-estrategico1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

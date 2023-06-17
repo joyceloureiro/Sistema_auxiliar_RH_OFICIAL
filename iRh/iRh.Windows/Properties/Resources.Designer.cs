@@ -83,9 +83,29 @@ namespace iRh.Windows.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _582810112619e1ee00d3351 {
+            get {
+                object obj = ResourceManager.GetObject("582810112619e1ee00d3351", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _900_473_rh_operacional_e_rh_estrategico {
             get {
                 object obj = ResourceManager.GetObject("900-473-rh-operacional-e-rh-estrategico", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _900_473_rh_operacional_e_rh_estrategico1 {
+            get {
+                object obj = ResourceManager.GetObject("900-473-rh-operacional-e-rh-estrategico1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

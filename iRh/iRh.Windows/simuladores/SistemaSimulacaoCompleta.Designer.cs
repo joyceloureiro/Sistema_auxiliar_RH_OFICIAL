@@ -45,9 +45,9 @@
             this.lblMostrarResultadoSimulacaoCompleta = new System.Windows.Forms.Label();
             this.lblCargaHoraria = new System.Windows.Forms.Label();
             this.txtCargaHoraria = new System.Windows.Forms.TextBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBoxAdicionalPericulosidade = new System.Windows.Forms.GroupBox();
             this.panelResultadoSimulacaoCompleta.SuspendLayout();
-            this.groupBox1.SuspendLayout();
+            this.groupBoxAdicionalPericulosidade.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblSalarioBaseSC
@@ -230,23 +230,22 @@
             this.txtCargaHoraria.Size = new System.Drawing.Size(224, 20);
             this.txtCargaHoraria.TabIndex = 40;
             // 
-            // groupBox1
+            // groupBoxAdicionalPericulosidade
             // 
-            this.groupBox1.Controls.Add(this.rdPericulosidadeSim);
-            this.groupBox1.Controls.Add(this.rdPericulosidadeNao);
-            this.groupBox1.Location = new System.Drawing.Point(393, 59);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(200, 58);
-            this.groupBox1.TabIndex = 42;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
+            this.groupBoxAdicionalPericulosidade.Controls.Add(this.rdPericulosidadeSim);
+            this.groupBoxAdicionalPericulosidade.Controls.Add(this.rdPericulosidadeNao);
+            this.groupBoxAdicionalPericulosidade.Location = new System.Drawing.Point(393, 59);
+            this.groupBoxAdicionalPericulosidade.Name = "groupBoxAdicionalPericulosidade";
+            this.groupBoxAdicionalPericulosidade.Size = new System.Drawing.Size(200, 58);
+            this.groupBoxAdicionalPericulosidade.TabIndex = 42;
+            this.groupBoxAdicionalPericulosidade.TabStop = false;
             // 
             // SistemaSimulacaoCompleta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.groupBoxAdicionalPericulosidade);
             this.Controls.Add(this.lblCargaHoraria);
             this.Controls.Add(this.txtCargaHoraria);
             this.Controls.Add(this.panelResultadoSimulacaoCompleta);
@@ -265,8 +264,8 @@
             this.Text = "SistemaSimulacaoCompleta";
             this.panelResultadoSimulacaoCompleta.ResumeLayout(false);
             this.panelResultadoSimulacaoCompleta.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.groupBoxAdicionalPericulosidade.ResumeLayout(false);
+            this.groupBoxAdicionalPericulosidade.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -291,6 +290,6 @@
         private System.Windows.Forms.Label lblMostrarResultadoSimulacaoCompleta;
         private System.Windows.Forms.Label lblCargaHoraria;
         private System.Windows.Forms.TextBox txtCargaHoraria;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBoxAdicionalPericulosidade;
     }
 }

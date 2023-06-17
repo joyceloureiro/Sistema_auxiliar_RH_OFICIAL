@@ -32,6 +32,8 @@
             this.menuPrincipal = new System.Windows.Forms.MenuStrip();
             this.funcionariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cadrastroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.simulaçaoCompletaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.contraChequeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.simuladoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuDescontoInss = new System.Windows.Forms.ToolStripMenuItem();
             this.menuDescontoIrrf = new System.Windows.Forms.ToolStripMenuItem();
@@ -44,6 +46,7 @@
             this.menuBeneficioDepositoFgts = new System.Windows.Forms.ToolStripMenuItem();
             this.menuBeneficioHoraExtra = new System.Windows.Forms.ToolStripMenuItem();
             this.menuBeneficioPericulosidade = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuSimulacaoCompleta = new System.Windows.Forms.ToolStripMenuItem();
             this.menuPrincipal.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,6 +54,7 @@
             // 
             this.menuPrincipal.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.funcionariosToolStripMenuItem,
+            this.simulaçaoCompletaToolStripMenuItem,
             this.simuladoresToolStripMenuItem});
             this.menuPrincipal.Location = new System.Drawing.Point(0, 0);
             this.menuPrincipal.Name = "menuPrincipal";
@@ -71,7 +75,21 @@
             this.cadrastroToolStripMenuItem.Name = "cadrastroToolStripMenuItem";
             this.cadrastroToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.cadrastroToolStripMenuItem.Text = "Funcionarios";
-            this.cadrastroToolStripMenuItem.Click += new System.EventHandler(this.cadrastroToolStripMenuItem_Click);
+            // 
+            // simulaçaoCompletaToolStripMenuItem
+            // 
+            this.simulaçaoCompletaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.contraChequeToolStripMenuItem});
+            this.simulaçaoCompletaToolStripMenuItem.Name = "simulaçaoCompletaToolStripMenuItem";
+            this.simulaçaoCompletaToolStripMenuItem.Size = new System.Drawing.Size(127, 20);
+            this.simulaçaoCompletaToolStripMenuItem.Text = "Simulaçao completa";
+            // 
+            // contraChequeToolStripMenuItem
+            // 
+            this.contraChequeToolStripMenuItem.Name = "contraChequeToolStripMenuItem";
+            this.contraChequeToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
+            this.contraChequeToolStripMenuItem.Text = "contracheque";
+            this.contraChequeToolStripMenuItem.Click += new System.EventHandler(this.contraChequeToolStripMenuItem_Click);
             // 
             // simuladoresToolStripMenuItem
             // 
@@ -86,11 +104,11 @@
             this.menuBeneficioValeTransporte,
             this.menuBeneficioDepositoFgts,
             this.menuBeneficioHoraExtra,
-            this.menuBeneficioPericulosidade});
+            this.menuBeneficioPericulosidade,
+            this.menuSimulacaoCompleta});
             this.simuladoresToolStripMenuItem.Name = "simuladoresToolStripMenuItem";
             this.simuladoresToolStripMenuItem.Size = new System.Drawing.Size(83, 20);
             this.simuladoresToolStripMenuItem.Text = "simuladores";
-            this.simuladoresToolStripMenuItem.Click += new System.EventHandler(this.simuladoresToolStripMenuItem_Click);
             // 
             // menuDescontoInss
             // 
@@ -167,11 +185,17 @@
             this.menuBeneficioPericulosidade.Text = "Beneficio Periculosidade";
             this.menuBeneficioPericulosidade.Click += new System.EventHandler(this.menuBeneficioPericulosidade_Click);
             // 
+            // menuSimulacaoCompleta
+            // 
+            this.menuSimulacaoCompleta.Name = "menuSimulacaoCompleta";
+            this.menuSimulacaoCompleta.Size = new System.Drawing.Size(233, 22);
+            this.menuSimulacaoCompleta.Text = "Simulação Completa";
+            // 
             // PrincipalMdi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::iRh.Windows.Properties.Resources._900_473_rh_operacional_e_rh_estrategico;
+            this.BackgroundImage = global::iRh.Windows.Properties.Resources._900_473_rh_operacional_e_rh_estrategico1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.menuPrincipal);
@@ -208,5 +232,8 @@
         private System.Windows.Forms.ToolStripMenuItem menuBeneficioDepositoFgts;
         private System.Windows.Forms.ToolStripMenuItem menuBeneficioHoraExtra;
         private System.Windows.Forms.ToolStripMenuItem menuBeneficioPericulosidade;
+        private System.Windows.Forms.ToolStripMenuItem menuSimulacaoCompleta;
+        private System.Windows.Forms.ToolStripMenuItem simulaçaoCompletaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem contraChequeToolStripMenuItem;
     }
 }

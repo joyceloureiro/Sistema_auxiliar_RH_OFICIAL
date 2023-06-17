@@ -1,21 +1,17 @@
 ﻿using System;
+using System.Net.Http;
 
 namespace iRh.Windows.Core
 {
-    public class LinkWhats ObterPorWhats(string whats)
+    public class LinkWhats : ObterPorWhats
     {
-        var linkDoWhats = new LinkWhats();
+        public void SendMessage(String message, String to)
+        {
+            StarBrowser(TypeDrive.Google.Chorme);
+            Navegate("https://wa.me/5527997249172");
 
-        //Instancia HTTP que permite obter informações da Internet através de uma URL
-        var http = new cadastro.HttpClienteWhats();
+            WaitForLoad();
+        }
 
-        var url = new Uri("https://wa.me/5527998006968" + whats);
-        var result = http.GetAsync(url).GetAwaiter().GetResult();
-
-        //Converte o resultado obtido em uma string
-        var resultContent = result.Content.ReadAsStringAsync().GetAwaiter().GetResult();
-
-              
-            return linkDoWhats;
     }
 }

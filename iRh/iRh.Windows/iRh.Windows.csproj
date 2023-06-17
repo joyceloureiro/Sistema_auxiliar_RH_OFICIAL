@@ -314,5 +314,11 @@
   <ItemGroup>
     <None Include="Resources\Monitorar-funcionarios1.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\582810112619e1ee00d3351.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\900-473-rh-operacional-e-rh-estrategico1.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
