@@ -33,7 +33,7 @@ namespace iRh.Windows.simuladores
 
                     var valorAdicionalNoturno = AdicionalNoturno.calculaAD(salario, horasNoturnasTrabalhadas, cargaHorariaMes);
                     var valorHoraExtra = HoraExtra.calculaHoraExtra(salario, horasExtrasTrabalhadasMes, cargaHorariaMes);
-                    var valorAdicionalPericulosidade = Periculosidade.calculaPericulosidade(salario);
+                    
 
                     var descontoInss = Inss.Calcula(salario);
                     var valorIrrf = Irrf.CalculaIrrf(salario);
@@ -79,15 +79,17 @@ namespace iRh.Windows.simuladores
                     var horasExtrasTrabalhadasMes = double.Parse(txtHorasExtrasTrabalhadasMesSc.Text);
                     var cargaHorariaMes = double.Parse(txtCargaHoraria.Text);
 
+
                     var valorAdicionalNoturno = AdicionalNoturno.calculaAD(salario, horasNoturnasTrabalhadas, cargaHorariaMes);
                     var valorHoraExtra = HoraExtra.calculaHoraExtra(salario, horasExtrasTrabalhadasMes, cargaHorariaMes);
                     var valorAdicionalPericulosidade = Periculosidade.calculaPericulosidade(salario);
+                    var valorValeTransporte = ValeTransporte.calculaVT(salario);
 
                     var descontoInss = Inss.Calcula(salario);
                     var valorIrrf = Irrf.CalculaIrrf(salario);
                     var valorFgts = Fgts.calculaFgts(salario);
 
-                    var salarioComAdicionais = salario + valorAdicionalNoturno + valorHoraExtra;
+                    var salarioComAdicionais = salario + valorAdicionalNoturno + valorHoraExtra + valorAdicionalPericulosidade;
                     var salarioComDescontos = salarioComAdicionais - valorIrrf - descontoInss - valorFgts;
 
                     lblMostrarResultadoSimulacaoCompleta.Text = "valor salario liquído: " + salarioComDescontos.ToString("C");
@@ -130,12 +132,13 @@ namespace iRh.Windows.simuladores
                     var valorAdicionalNoturno = AdicionalNoturno.calculaAD(salario, horasNoturnasTrabalhadas, cargaHorariaMes);
                     var valorHoraExtra = HoraExtra.calculaHoraExtra(salario, horasExtrasTrabalhadasMes, cargaHorariaMes);
                     var valorAdicionalPericulosidade = Periculosidade.calculaPericulosidade(salario);
+                    var valorValeTransporte = ValeTransporte.calculaVT(salario);
 
                     var descontoInss = Inss.Calcula(salario);
                     var valorIrrf = Irrf.CalculaIrrf(salario);
                     var valorFgts = Fgts.calculaFgts(salario);
 
-                    var salarioComAdicionais = salario + valorAdicionalNoturno + valorHoraExtra;
+                    var salarioComAdicionais = salario + valorAdicionalNoturno + valorHoraExtra + valorValeTransporte + valorAdicionalPericulosidade;
                     var salarioComDescontos = salarioComAdicionais - valorIrrf - descontoInss - valorFgts;
 
                     lblMostrarResultadoSimulacaoCompleta.Text = "valor salario liquído: " + salarioComDescontos.ToString("C");
@@ -177,13 +180,13 @@ namespace iRh.Windows.simuladores
 
                     var valorAdicionalNoturno = AdicionalNoturno.calculaAD(salario, horasNoturnasTrabalhadas, cargaHorariaMes);
                     var valorHoraExtra = HoraExtra.calculaHoraExtra(salario, horasExtrasTrabalhadasMes, cargaHorariaMes);
-                    var valorAdicionalPericulosidade = Periculosidade.calculaPericulosidade(salario);
+                    var valorValeTransporte = ValeTransporte.calculaVT(salario);
 
                     var descontoInss = Inss.Calcula(salario);
                     var valorIrrf = Irrf.CalculaIrrf(salario);
                     var valorFgts = Fgts.calculaFgts(salario);
 
-                    var salarioComAdicionais = salario + valorAdicionalNoturno + valorHoraExtra;
+                    var salarioComAdicionais = salario + valorAdicionalNoturno + valorHoraExtra + valorValeTransporte;
                     var salarioComDescontos = salarioComAdicionais - valorIrrf - descontoInss - valorFgts;
 
                     lblMostrarResultadoSimulacaoCompleta.Text = "valor salario liquído: " + salarioComDescontos.ToString("C");

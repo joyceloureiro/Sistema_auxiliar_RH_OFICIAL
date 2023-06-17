@@ -225,9 +225,6 @@
     <None Include="Resources\pagamento-pis1.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\download.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\images %282%29.jpg" />
   </ItemGroup>
   <ItemGroup>

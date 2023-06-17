@@ -331,6 +331,7 @@
             this.linkLblWhats.TabIndex = 37;
             this.linkLblWhats.TabStop = true;
             this.linkLblWhats.Text = "CHAMA NO WHATS";
+            this.linkLblWhats.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLblWhats_LinkClicked);
             this.linkLblWhats.TextChanged += new System.EventHandler(this.linkLblWhats_TextChanged);
             // 
             // btnImagemWhatszap

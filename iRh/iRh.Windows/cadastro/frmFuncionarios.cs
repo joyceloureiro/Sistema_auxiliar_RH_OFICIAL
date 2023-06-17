@@ -163,9 +163,15 @@ namespace iRh.Windows.cadastro
                 
         private void linkLblWhats_TextChanged(object sender, EventArgs e)
         {
-            var whatsNumero = linkLblWhats.Text;
-            var whatsapp = new LinkWhats();
-            whatsapp = LinkWhats.ObterPorWhats(whatsNumero);
+          
+        }
+
+        private void linkLblWhats_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            var ddd = txtDdd;
+            var numero = txtNumero;
+
+            System.Diagnostics.Process.Start("https://api.whatsapp.com/send?phone=" + ddd + numero + "&text=ol%C3%A1%20amigo%20");
         }
     }
 }
