@@ -46,7 +46,6 @@
             this.menuBeneficioDepositoFgts = new System.Windows.Forms.ToolStripMenuItem();
             this.menuBeneficioHoraExtra = new System.Windows.Forms.ToolStripMenuItem();
             this.menuBeneficioPericulosidade = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuSimulacaoCompleta = new System.Windows.Forms.ToolStripMenuItem();
             this.menuPrincipal.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -104,8 +103,7 @@
             this.menuBeneficioValeTransporte,
             this.menuBeneficioDepositoFgts,
             this.menuBeneficioHoraExtra,
-            this.menuBeneficioPericulosidade,
-            this.menuSimulacaoCompleta});
+            this.menuBeneficioPericulosidade});
             this.simuladoresToolStripMenuItem.Name = "simuladoresToolStripMenuItem";
             this.simuladoresToolStripMenuItem.Size = new System.Drawing.Size(83, 20);
             this.simuladoresToolStripMenuItem.Text = "simuladores";
@@ -185,17 +183,10 @@
             this.menuBeneficioPericulosidade.Text = "Beneficio Periculosidade";
             this.menuBeneficioPericulosidade.Click += new System.EventHandler(this.menuBeneficioPericulosidade_Click);
             // 
-            // menuSimulacaoCompleta
-            // 
-            this.menuSimulacaoCompleta.Name = "menuSimulacaoCompleta";
-            this.menuSimulacaoCompleta.Size = new System.Drawing.Size(233, 22);
-            this.menuSimulacaoCompleta.Text = "Simulação Completa";
-            // 
             // PrincipalMdi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::iRh.Windows.Properties.Resources._900_473_rh_operacional_e_rh_estrategico1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.menuPrincipal);
@@ -232,7 +223,6 @@
         private System.Windows.Forms.ToolStripMenuItem menuBeneficioDepositoFgts;
         private System.Windows.Forms.ToolStripMenuItem menuBeneficioHoraExtra;
         private System.Windows.Forms.ToolStripMenuItem menuBeneficioPericulosidade;
-        private System.Windows.Forms.ToolStripMenuItem menuSimulacaoCompleta;
         private System.Windows.Forms.ToolStripMenuItem simulaçaoCompletaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem contraChequeToolStripMenuItem;
     }

@@ -42,7 +42,24 @@
             this.rdValeTransporteSim = new System.Windows.Forms.RadioButton();
             this.rdValeTransporteNao = new System.Windows.Forms.RadioButton();
             this.panelResultadoSimulacaoCompleta = new System.Windows.Forms.Panel();
-            this.lblMostrarResultadoSimulacaoCompleta = new System.Windows.Forms.Label();
+            this.lblSalarioLiquidResultado = new System.Windows.Forms.Label();
+            this.lblTracinhoResultado = new System.Windows.Forms.Label();
+            this.lblTotalDescResultado = new System.Windows.Forms.Label();
+            this.lblVtResultado = new System.Windows.Forms.Label();
+            this.lblTotalAdicResultado = new System.Windows.Forms.Label();
+            this.lnlDetalhamento = new System.Windows.Forms.Label();
+            this.lblIrrfResultado = new System.Windows.Forms.Label();
+            this.lblInssResultado = new System.Windows.Forms.Label();
+            this.lblFgtsDepResultado = new System.Windows.Forms.Label();
+            this.lblMostrarHEEntrada = new System.Windows.Forms.Label();
+            this.lblPercResultado = new System.Windows.Forms.Label();
+            this.lblMostrarVtEntrada = new System.Windows.Forms.Label();
+            this.lblNortResultado = new System.Windows.Forms.Label();
+            this.lblMostrarPercEntrada = new System.Windows.Forms.Label();
+            this.lblHoraExrResultado = new System.Windows.Forms.Label();
+            this.lblMostrarSalBrtEntrada = new System.Windows.Forms.Label();
+            this.lblSalarioResultado = new System.Windows.Forms.Label();
+            this.lblMostrarNotEntrada = new System.Windows.Forms.Label();
             this.lblCargaHoraria = new System.Windows.Forms.Label();
             this.txtCargaHoraria = new System.Windows.Forms.TextBox();
             this.groupBoxAdicionalPericulosidade = new System.Windows.Forms.GroupBox();
@@ -54,61 +71,61 @@
             // 
             this.lblSalarioBaseSC.AutoSize = true;
             this.lblSalarioBaseSC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.lblSalarioBaseSC.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSalarioBaseSC.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSalarioBaseSC.ForeColor = System.Drawing.Color.Black;
-            this.lblSalarioBaseSC.Location = new System.Drawing.Point(43, 27);
+            this.lblSalarioBaseSC.Location = new System.Drawing.Point(34, 27);
             this.lblSalarioBaseSC.Name = "lblSalarioBaseSC";
-            this.lblSalarioBaseSC.Size = new System.Drawing.Size(178, 21);
+            this.lblSalarioBaseSC.Size = new System.Drawing.Size(146, 13);
             this.lblSalarioBaseSC.TabIndex = 22;
             this.lblSalarioBaseSC.Text = "DIGITE SALARIO BASE:";
             // 
             // txtSalarioBaseSC
             // 
-            this.txtSalarioBaseSC.Location = new System.Drawing.Point(47, 51);
+            this.txtSalarioBaseSC.Location = new System.Drawing.Point(33, 57);
             this.txtSalarioBaseSC.Name = "txtSalarioBaseSC";
-            this.txtSalarioBaseSC.Size = new System.Drawing.Size(224, 20);
+            this.txtSalarioBaseSC.Size = new System.Drawing.Size(91, 20);
             this.txtSalarioBaseSC.TabIndex = 21;
             // 
             // lblHorasExtrasTrabalhadasSC
             // 
             this.lblHorasExtrasTrabalhadasSC.AutoSize = true;
             this.lblHorasExtrasTrabalhadasSC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.lblHorasExtrasTrabalhadasSC.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHorasExtrasTrabalhadasSC.Location = new System.Drawing.Point(43, 144);
+            this.lblHorasExtrasTrabalhadasSC.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHorasExtrasTrabalhadasSC.Location = new System.Drawing.Point(30, 100);
             this.lblHorasExtrasTrabalhadasSC.Name = "lblHorasExtrasTrabalhadasSC";
-            this.lblHorasExtrasTrabalhadasSC.Size = new System.Drawing.Size(314, 21);
+            this.lblHorasExtrasTrabalhadasSC.Size = new System.Drawing.Size(253, 13);
             this.lblHorasExtrasTrabalhadasSC.TabIndex = 28;
             this.lblHorasExtrasTrabalhadasSC.Text = "HORAS EXTRAS TRABALHADAS NO MES:";
             // 
             // txtHorasExtrasTrabalhadasMesSc
             // 
-            this.txtHorasExtrasTrabalhadasMesSc.Location = new System.Drawing.Point(47, 168);
+            this.txtHorasExtrasTrabalhadasMesSc.Location = new System.Drawing.Point(33, 136);
             this.txtHorasExtrasTrabalhadasMesSc.Name = "txtHorasExtrasTrabalhadasMesSc";
-            this.txtHorasExtrasTrabalhadasMesSc.Size = new System.Drawing.Size(248, 20);
+            this.txtHorasExtrasTrabalhadasMesSc.Size = new System.Drawing.Size(136, 20);
             this.txtHorasExtrasTrabalhadasMesSc.TabIndex = 27;
             // 
             // lblHorasNoturnasMesSC
             // 
             this.lblHorasNoturnasMesSC.AutoSize = true;
             this.lblHorasNoturnasMesSC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.lblHorasNoturnasMesSC.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHorasNoturnasMesSC.Location = new System.Drawing.Point(43, 208);
+            this.lblHorasNoturnasMesSC.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHorasNoturnasMesSC.Location = new System.Drawing.Point(30, 174);
             this.lblHorasNoturnasMesSC.Name = "lblHorasNoturnasMesSC";
-            this.lblHorasNoturnasMesSC.Size = new System.Drawing.Size(304, 21);
+            this.lblHorasNoturnasMesSC.Size = new System.Drawing.Size(243, 13);
             this.lblHorasNoturnasMesSC.TabIndex = 31;
             this.lblHorasNoturnasMesSC.Text = "HORAS NOTURNAS TRABALHDAS MES:";
             // 
             // txtHorasNoturnasMesSC
             // 
-            this.txtHorasNoturnasMesSC.Location = new System.Drawing.Point(47, 232);
+            this.txtHorasNoturnasMesSC.Location = new System.Drawing.Point(33, 207);
             this.txtHorasNoturnasMesSC.Name = "txtHorasNoturnasMesSC";
-            this.txtHorasNoturnasMesSC.Size = new System.Drawing.Size(287, 20);
+            this.txtHorasNoturnasMesSC.Size = new System.Drawing.Size(136, 20);
             this.txtHorasNoturnasMesSC.TabIndex = 30;
             // 
             // btnCalcularSC
             // 
             this.btnCalcularSC.ForeColor = System.Drawing.Color.Black;
-            this.btnCalcularSC.Location = new System.Drawing.Point(47, 271);
+            this.btnCalcularSC.Location = new System.Drawing.Point(264, 403);
             this.btnCalcularSC.Name = "btnCalcularSC";
             this.btnCalcularSC.Size = new System.Drawing.Size(122, 24);
             this.btnCalcularSC.TabIndex = 29;
@@ -120,11 +137,11 @@
             // 
             this.lblPericulosidadeSimouNao.AutoSize = true;
             this.lblPericulosidadeSimouNao.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.lblPericulosidadeSimouNao.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPericulosidadeSimouNao.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPericulosidadeSimouNao.ForeColor = System.Drawing.Color.Black;
-            this.lblPericulosidadeSimouNao.Location = new System.Drawing.Point(405, 27);
+            this.lblPericulosidadeSimouNao.Location = new System.Drawing.Point(30, 334);
             this.lblPericulosidadeSimouNao.Name = "lblPericulosidadeSimouNao";
-            this.lblPericulosidadeSimouNao.Size = new System.Drawing.Size(325, 21);
+            this.lblPericulosidadeSimouNao.Size = new System.Drawing.Size(263, 13);
             this.lblPericulosidadeSimouNao.TabIndex = 35;
             this.lblPericulosidadeSimouNao.Text = "RECEBE ADICIONAL DE PERICULOSIDADE:";
             // 
@@ -132,7 +149,7 @@
             // 
             this.rdPericulosidadeSim.AutoSize = true;
             this.rdPericulosidadeSim.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.rdPericulosidadeSim.Location = new System.Drawing.Point(22, 19);
+            this.rdPericulosidadeSim.Location = new System.Drawing.Point(14, 27);
             this.rdPericulosidadeSim.Name = "rdPericulosidadeSim";
             this.rdPericulosidadeSim.Size = new System.Drawing.Size(44, 17);
             this.rdPericulosidadeSim.TabIndex = 34;
@@ -144,7 +161,7 @@
             // 
             this.rdPericulosidadeNao.AutoSize = true;
             this.rdPericulosidadeNao.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.rdPericulosidadeNao.Location = new System.Drawing.Point(124, 19);
+            this.rdPericulosidadeNao.Location = new System.Drawing.Point(96, 27);
             this.rdPericulosidadeNao.Name = "rdPericulosidadeNao";
             this.rdPericulosidadeNao.Size = new System.Drawing.Size(51, 17);
             this.rdPericulosidadeNao.TabIndex = 33;
@@ -156,11 +173,11 @@
             // 
             this.lblValeTranporte.AutoSize = true;
             this.lblValeTranporte.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.lblValeTranporte.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblValeTranporte.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblValeTranporte.ForeColor = System.Drawing.Color.Black;
-            this.lblValeTranporte.Location = new System.Drawing.Point(405, 120);
+            this.lblValeTranporte.Location = new System.Drawing.Point(30, 250);
             this.lblValeTranporte.Name = "lblValeTranporte";
-            this.lblValeTranporte.Size = new System.Drawing.Size(308, 21);
+            this.lblValeTranporte.Size = new System.Drawing.Size(252, 13);
             this.lblValeTranporte.TabIndex = 38;
             this.lblValeTranporte.Text = "O VALE TRANSPORTES È DESCONTADO:";
             // 
@@ -168,7 +185,7 @@
             // 
             this.rdValeTransporteSim.AutoSize = true;
             this.rdValeTransporteSim.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.rdValeTransporteSim.Location = new System.Drawing.Point(409, 166);
+            this.rdValeTransporteSim.Location = new System.Drawing.Point(47, 291);
             this.rdValeTransporteSim.Name = "rdValeTransporteSim";
             this.rdValeTransporteSim.Size = new System.Drawing.Size(44, 17);
             this.rdValeTransporteSim.TabIndex = 37;
@@ -180,7 +197,7 @@
             // 
             this.rdValeTransporteNao.AutoSize = true;
             this.rdValeTransporteNao.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.rdValeTransporteNao.Location = new System.Drawing.Point(521, 166);
+            this.rdValeTransporteNao.Location = new System.Drawing.Point(129, 291);
             this.rdValeTransporteNao.Name = "rdValeTransporteNao";
             this.rdValeTransporteNao.Size = new System.Drawing.Size(51, 17);
             this.rdValeTransporteNao.TabIndex = 36;
@@ -191,50 +208,221 @@
             // panelResultadoSimulacaoCompleta
             // 
             this.panelResultadoSimulacaoCompleta.AutoSize = true;
-            this.panelResultadoSimulacaoCompleta.BackColor = System.Drawing.Color.Transparent;
-            this.panelResultadoSimulacaoCompleta.Controls.Add(this.lblMostrarResultadoSimulacaoCompleta);
-            this.panelResultadoSimulacaoCompleta.Location = new System.Drawing.Point(409, 212);
+            this.panelResultadoSimulacaoCompleta.BackColor = System.Drawing.Color.White;
+            this.panelResultadoSimulacaoCompleta.Controls.Add(this.lblSalarioLiquidResultado);
+            this.panelResultadoSimulacaoCompleta.Controls.Add(this.lblTracinhoResultado);
+            this.panelResultadoSimulacaoCompleta.Controls.Add(this.lblTotalDescResultado);
+            this.panelResultadoSimulacaoCompleta.Controls.Add(this.lblVtResultado);
+            this.panelResultadoSimulacaoCompleta.Controls.Add(this.lblTotalAdicResultado);
+            this.panelResultadoSimulacaoCompleta.Controls.Add(this.lnlDetalhamento);
+            this.panelResultadoSimulacaoCompleta.Controls.Add(this.lblIrrfResultado);
+            this.panelResultadoSimulacaoCompleta.Controls.Add(this.lblInssResultado);
+            this.panelResultadoSimulacaoCompleta.Controls.Add(this.lblFgtsDepResultado);
+            this.panelResultadoSimulacaoCompleta.Controls.Add(this.lblMostrarHEEntrada);
+            this.panelResultadoSimulacaoCompleta.Controls.Add(this.lblPercResultado);
+            this.panelResultadoSimulacaoCompleta.Controls.Add(this.lblMostrarVtEntrada);
+            this.panelResultadoSimulacaoCompleta.Controls.Add(this.lblNortResultado);
+            this.panelResultadoSimulacaoCompleta.Controls.Add(this.lblMostrarPercEntrada);
+            this.panelResultadoSimulacaoCompleta.Controls.Add(this.lblHoraExrResultado);
+            this.panelResultadoSimulacaoCompleta.Controls.Add(this.lblMostrarSalBrtEntrada);
+            this.panelResultadoSimulacaoCompleta.Controls.Add(this.lblSalarioResultado);
+            this.panelResultadoSimulacaoCompleta.Controls.Add(this.lblMostrarNotEntrada);
+            this.panelResultadoSimulacaoCompleta.Location = new System.Drawing.Point(493, 12);
             this.panelResultadoSimulacaoCompleta.Name = "panelResultadoSimulacaoCompleta";
-            this.panelResultadoSimulacaoCompleta.Size = new System.Drawing.Size(153, 83);
+            this.panelResultadoSimulacaoCompleta.Size = new System.Drawing.Size(295, 426);
             this.panelResultadoSimulacaoCompleta.TabIndex = 39;
             this.panelResultadoSimulacaoCompleta.TabStop = true;
             this.panelResultadoSimulacaoCompleta.Visible = false;
             // 
-            // lblMostrarResultadoSimulacaoCompleta
+            // lblSalarioLiquidResultado
             // 
-            this.lblMostrarResultadoSimulacaoCompleta.AutoSize = true;
-            this.lblMostrarResultadoSimulacaoCompleta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.lblMostrarResultadoSimulacaoCompleta.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMostrarResultadoSimulacaoCompleta.Location = new System.Drawing.Point(3, 0);
-            this.lblMostrarResultadoSimulacaoCompleta.Name = "lblMostrarResultadoSimulacaoCompleta";
-            this.lblMostrarResultadoSimulacaoCompleta.Size = new System.Drawing.Size(131, 30);
-            this.lblMostrarResultadoSimulacaoCompleta.TabIndex = 6;
-            this.lblMostrarResultadoSimulacaoCompleta.Text = "RESULTADO:";
+            this.lblSalarioLiquidResultado.AutoSize = true;
+            this.lblSalarioLiquidResultado.Location = new System.Drawing.Point(6, 402);
+            this.lblSalarioLiquidResultado.Name = "lblSalarioLiquidResultado";
+            this.lblSalarioLiquidResultado.Size = new System.Drawing.Size(81, 13);
+            this.lblSalarioLiquidResultado.TabIndex = 47;
+            this.lblSalarioLiquidResultado.Text = "Salário Líquido:";
+            // 
+            // lblTracinhoResultado
+            // 
+            this.lblTracinhoResultado.AutoSize = true;
+            this.lblTracinhoResultado.Location = new System.Drawing.Point(3, 335);
+            this.lblTracinhoResultado.Name = "lblTracinhoResultado";
+            this.lblTracinhoResultado.Size = new System.Drawing.Size(289, 13);
+            this.lblTracinhoResultado.TabIndex = 49;
+            this.lblTracinhoResultado.Text = "-----------------------------RESULTADO-------------------------------------------" +
+    "";
+            // 
+            // lblTotalDescResultado
+            // 
+            this.lblTotalDescResultado.AutoSize = true;
+            this.lblTotalDescResultado.Location = new System.Drawing.Point(3, 369);
+            this.lblTotalDescResultado.Name = "lblTotalDescResultado";
+            this.lblTotalDescResultado.Size = new System.Drawing.Size(86, 13);
+            this.lblTotalDescResultado.TabIndex = 46;
+            this.lblTotalDescResultado.Text = "Total descontos:";
+            // 
+            // lblVtResultado
+            // 
+            this.lblVtResultado.AutoSize = true;
+            this.lblVtResultado.Location = new System.Drawing.Point(2, 279);
+            this.lblVtResultado.Name = "lblVtResultado";
+            this.lblVtResultado.Size = new System.Drawing.Size(82, 13);
+            this.lblVtResultado.TabIndex = 48;
+            this.lblVtResultado.Text = "Vale Transporte";
+            // 
+            // lblTotalAdicResultado
+            // 
+            this.lblTotalAdicResultado.AutoSize = true;
+            this.lblTotalAdicResultado.Location = new System.Drawing.Point(6, 348);
+            this.lblTotalAdicResultado.Name = "lblTotalAdicResultado";
+            this.lblTotalAdicResultado.Size = new System.Drawing.Size(84, 13);
+            this.lblTotalAdicResultado.TabIndex = 43;
+            this.lblTotalAdicResultado.Text = "Total adicionais:";
+            // 
+            // lnlDetalhamento
+            // 
+            this.lnlDetalhamento.AutoSize = true;
+            this.lnlDetalhamento.Location = new System.Drawing.Point(5, 124);
+            this.lnlDetalhamento.Name = "lnlDetalhamento";
+            this.lnlDetalhamento.Size = new System.Drawing.Size(286, 13);
+            this.lnlDetalhamento.TabIndex = 46;
+            this.lnlDetalhamento.Text = "--------------------Detalhamento-------------------------------------------------" +
+    "--";
+            // 
+            // lblIrrfResultado
+            // 
+            this.lblIrrfResultado.AutoSize = true;
+            this.lblIrrfResultado.Location = new System.Drawing.Point(3, 322);
+            this.lblIrrfResultado.Name = "lblIrrfResultado";
+            this.lblIrrfResultado.Size = new System.Drawing.Size(32, 13);
+            this.lblIrrfResultado.TabIndex = 44;
+            this.lblIrrfResultado.Text = "IRRF";
+            // 
+            // lblInssResultado
+            // 
+            this.lblInssResultado.AutoSize = true;
+            this.lblInssResultado.Location = new System.Drawing.Point(3, 300);
+            this.lblInssResultado.Name = "lblInssResultado";
+            this.lblInssResultado.Size = new System.Drawing.Size(32, 13);
+            this.lblInssResultado.TabIndex = 45;
+            this.lblInssResultado.Text = "INSS";
+            // 
+            // lblFgtsDepResultado
+            // 
+            this.lblFgtsDepResultado.AutoSize = true;
+            this.lblFgtsDepResultado.Location = new System.Drawing.Point(3, 249);
+            this.lblFgtsDepResultado.Name = "lblFgtsDepResultado";
+            this.lblFgtsDepResultado.Size = new System.Drawing.Size(84, 13);
+            this.lblFgtsDepResultado.TabIndex = 47;
+            this.lblFgtsDepResultado.Text = "FGTS(deposito):";
+            // 
+            // lblMostrarHEEntrada
+            // 
+            this.lblMostrarHEEntrada.AutoSize = true;
+            this.lblMostrarHEEntrada.Location = new System.Drawing.Point(3, 28);
+            this.lblMostrarHEEntrada.Name = "lblMostrarHEEntrada";
+            this.lblMostrarHEEntrada.Size = new System.Drawing.Size(69, 13);
+            this.lblMostrarHEEntrada.TabIndex = 1;
+            this.lblMostrarHEEntrada.Text = "Horas extras:";
+            // 
+            // lblPercResultado
+            // 
+            this.lblPercResultado.AutoSize = true;
+            this.lblPercResultado.Location = new System.Drawing.Point(3, 226);
+            this.lblPercResultado.Name = "lblPercResultado";
+            this.lblPercResultado.Size = new System.Drawing.Size(79, 13);
+            this.lblPercResultado.TabIndex = 46;
+            this.lblPercResultado.Text = "Periculosidade:";
+            // 
+            // lblMostrarVtEntrada
+            // 
+            this.lblMostrarVtEntrada.AutoSize = true;
+            this.lblMostrarVtEntrada.Location = new System.Drawing.Point(6, 88);
+            this.lblMostrarVtEntrada.Name = "lblMostrarVtEntrada";
+            this.lblMostrarVtEntrada.Size = new System.Drawing.Size(81, 13);
+            this.lblMostrarVtEntrada.TabIndex = 44;
+            this.lblMostrarVtEntrada.Text = "Vale transporte:";
+            // 
+            // lblNortResultado
+            // 
+            this.lblNortResultado.AutoSize = true;
+            this.lblNortResultado.Location = new System.Drawing.Point(6, 202);
+            this.lblNortResultado.Name = "lblNortResultado";
+            this.lblNortResultado.Size = new System.Drawing.Size(48, 13);
+            this.lblNortResultado.TabIndex = 45;
+            this.lblNortResultado.Text = "Noturno:";
+            // 
+            // lblMostrarPercEntrada
+            // 
+            this.lblMostrarPercEntrada.AutoSize = true;
+            this.lblMostrarPercEntrada.Location = new System.Drawing.Point(8, 102);
+            this.lblMostrarPercEntrada.Name = "lblMostrarPercEntrada";
+            this.lblMostrarPercEntrada.Size = new System.Drawing.Size(79, 13);
+            this.lblMostrarPercEntrada.TabIndex = 45;
+            this.lblMostrarPercEntrada.Text = "Periculosidade:";
+            // 
+            // lblHoraExrResultado
+            // 
+            this.lblHoraExrResultado.AutoSize = true;
+            this.lblHoraExrResultado.Location = new System.Drawing.Point(3, 176);
+            this.lblHoraExrResultado.Name = "lblHoraExrResultado";
+            this.lblHoraExrResultado.Size = new System.Drawing.Size(69, 13);
+            this.lblHoraExrResultado.TabIndex = 44;
+            this.lblHoraExrResultado.Text = "Horas extras:";
+            // 
+            // lblMostrarSalBrtEntrada
+            // 
+            this.lblMostrarSalBrtEntrada.AutoSize = true;
+            this.lblMostrarSalBrtEntrada.Location = new System.Drawing.Point(3, 5);
+            this.lblMostrarSalBrtEntrada.Name = "lblMostrarSalBrtEntrada";
+            this.lblMostrarSalBrtEntrada.Size = new System.Drawing.Size(76, 13);
+            this.lblMostrarSalBrtEntrada.TabIndex = 0;
+            this.lblMostrarSalBrtEntrada.Text = "Salário Bruto =";
+            // 
+            // lblSalarioResultado
+            // 
+            this.lblSalarioResultado.AutoSize = true;
+            this.lblSalarioResultado.Location = new System.Drawing.Point(5, 144);
+            this.lblSalarioResultado.Name = "lblSalarioResultado";
+            this.lblSalarioResultado.Size = new System.Drawing.Size(68, 13);
+            this.lblSalarioResultado.TabIndex = 43;
+            this.lblSalarioResultado.Text = "Salário base:";
+            // 
+            // lblMostrarNotEntrada
+            // 
+            this.lblMostrarNotEntrada.AutoSize = true;
+            this.lblMostrarNotEntrada.Location = new System.Drawing.Point(6, 52);
+            this.lblMostrarNotEntrada.Name = "lblMostrarNotEntrada";
+            this.lblMostrarNotEntrada.Size = new System.Drawing.Size(48, 13);
+            this.lblMostrarNotEntrada.TabIndex = 43;
+            this.lblMostrarNotEntrada.Text = "Noturno:";
             // 
             // lblCargaHoraria
             // 
             this.lblCargaHoraria.AutoSize = true;
             this.lblCargaHoraria.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.lblCargaHoraria.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCargaHoraria.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCargaHoraria.ForeColor = System.Drawing.Color.Black;
-            this.lblCargaHoraria.Location = new System.Drawing.Point(43, 84);
+            this.lblCargaHoraria.Location = new System.Drawing.Point(206, 27);
             this.lblCargaHoraria.Name = "lblCargaHoraria";
-            this.lblCargaHoraria.Size = new System.Drawing.Size(207, 21);
+            this.lblCargaHoraria.Size = new System.Drawing.Size(163, 13);
             this.lblCargaHoraria.TabIndex = 41;
             this.lblCargaHoraria.Text = "CARGA HORARIA MENSAL";
             // 
             // txtCargaHoraria
             // 
-            this.txtCargaHoraria.Location = new System.Drawing.Point(47, 108);
+            this.txtCargaHoraria.Location = new System.Drawing.Point(209, 57);
             this.txtCargaHoraria.Name = "txtCargaHoraria";
-            this.txtCargaHoraria.Size = new System.Drawing.Size(224, 20);
+            this.txtCargaHoraria.Size = new System.Drawing.Size(177, 20);
             this.txtCargaHoraria.TabIndex = 40;
             // 
             // groupBoxAdicionalPericulosidade
             // 
+            this.groupBoxAdicionalPericulosidade.BackColor = System.Drawing.Color.Transparent;
             this.groupBoxAdicionalPericulosidade.Controls.Add(this.rdPericulosidadeSim);
             this.groupBoxAdicionalPericulosidade.Controls.Add(this.rdPericulosidadeNao);
-            this.groupBoxAdicionalPericulosidade.Location = new System.Drawing.Point(393, 59);
+            this.groupBoxAdicionalPericulosidade.Location = new System.Drawing.Point(33, 350);
             this.groupBoxAdicionalPericulosidade.Name = "groupBoxAdicionalPericulosidade";
             this.groupBoxAdicionalPericulosidade.Size = new System.Drawing.Size(200, 58);
             this.groupBoxAdicionalPericulosidade.TabIndex = 42;
@@ -244,6 +432,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::iRh.Windows.Properties.Resources.recursos_humanos3;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.groupBoxAdicionalPericulosidade);
             this.Controls.Add(this.lblCargaHoraria);
@@ -287,9 +476,26 @@
         private System.Windows.Forms.RadioButton rdValeTransporteSim;
         private System.Windows.Forms.RadioButton rdValeTransporteNao;
         private System.Windows.Forms.Panel panelResultadoSimulacaoCompleta;
-        private System.Windows.Forms.Label lblMostrarResultadoSimulacaoCompleta;
         private System.Windows.Forms.Label lblCargaHoraria;
         private System.Windows.Forms.TextBox txtCargaHoraria;
         private System.Windows.Forms.GroupBox groupBoxAdicionalPericulosidade;
+        private System.Windows.Forms.Label lblMostrarSalBrtEntrada;
+        private System.Windows.Forms.Label lblMostrarHEEntrada;
+        private System.Windows.Forms.Label lblVtResultado;
+        private System.Windows.Forms.Label lnlDetalhamento;
+        private System.Windows.Forms.Label lblFgtsDepResultado;
+        private System.Windows.Forms.Label lblPercResultado;
+        private System.Windows.Forms.Label lblMostrarVtEntrada;
+        private System.Windows.Forms.Label lblNortResultado;
+        private System.Windows.Forms.Label lblMostrarPercEntrada;
+        private System.Windows.Forms.Label lblHoraExrResultado;
+        private System.Windows.Forms.Label lblSalarioResultado;
+        private System.Windows.Forms.Label lblMostrarNotEntrada;
+        private System.Windows.Forms.Label lblTotalAdicResultado;
+        private System.Windows.Forms.Label lblIrrfResultado;
+        private System.Windows.Forms.Label lblInssResultado;
+        private System.Windows.Forms.Label lblTotalDescResultado;
+        private System.Windows.Forms.Label lblSalarioLiquidResultado;
+        private System.Windows.Forms.Label lblTracinhoResultado;
     }
 }

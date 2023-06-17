@@ -62,6 +62,8 @@
             this.bntEnter = new System.Windows.Forms.Button();
             this.txtCep = new System.Windows.Forms.MaskedTextBox();
             this.txtTelefone = new System.Windows.Forms.MaskedTextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label2
@@ -336,14 +338,14 @@
             // 
             // btnImagemWhatszap
             // 
-            this.btnImagemWhatszap.BackgroundImage = global::iRh.Windows.Properties.Resources.whatsapp;
             this.btnImagemWhatszap.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnImagemWhatszap.Location = new System.Drawing.Point(753, 249);
+            this.btnImagemWhatszap.Location = new System.Drawing.Point(844, 249);
             this.btnImagemWhatszap.Margin = new System.Windows.Forms.Padding(4);
             this.btnImagemWhatszap.Name = "btnImagemWhatszap";
             this.btnImagemWhatszap.Size = new System.Drawing.Size(59, 48);
             this.btnImagemWhatszap.TabIndex = 38;
             this.btnImagemWhatszap.UseVisualStyleBackColor = true;
+            this.btnImagemWhatszap.Click += new System.EventHandler(this.btnImagemWhatszap_Click);
             // 
             // cmbEstados
             // 
@@ -404,14 +406,22 @@
             this.txtTelefone.Size = new System.Drawing.Size(132, 22);
             this.txtTelefone.TabIndex = 46;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(-23, -46);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox1.TabIndex = 47;
+            this.pictureBox1.TabStop = false;
+            // 
             // frmFuncionarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
-            this.BackgroundImage = global::iRh.Windows.Properties.Resources.Monitorar_funcionarios1;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.BackgroundImage = global::iRh.Windows.Properties.Resources.tecnologia_no_RH_13;
             this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtTelefone);
             this.Controls.Add(this.txtCep);
             this.Controls.Add(this.bntEnter);
@@ -452,6 +462,7 @@
             this.Name = "frmFuncionarios";
             this.Text = "frmFuncionarios";
             this.Load += new System.EventHandler(this.frmFuncionarios_Load_1);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -492,5 +503,6 @@
         private System.Windows.Forms.Button bntEnter;
         private System.Windows.Forms.MaskedTextBox txtCep;
         private System.Windows.Forms.MaskedTextBox txtTelefone;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

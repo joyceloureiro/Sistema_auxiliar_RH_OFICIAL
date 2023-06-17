@@ -152,7 +152,7 @@
             // 
             // frmBeneficioSeguroDesemprego
             // 
-            this.BackgroundImage = global::iRh.Windows.Properties.Resources._582810112619e1ee00d335;
+           
             this.ClientSize = new System.Drawing.Size(679, 320);
             this.Controls.Add(this.panelExibeDadosSeguroDesemprego);
             this.Controls.Add(this.lblJustaCausaSimouNao);

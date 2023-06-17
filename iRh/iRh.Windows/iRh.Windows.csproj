@@ -317,5 +317,20 @@
   <ItemGroup>
     <None Include="Resources\900-473-rh-operacional-e-rh-estrategico1.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\whatsapp1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recursos-humanos3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\original-320f7ee0934c18f48d3abbe64957cc471.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frh2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tecnologia-no-RH-13.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

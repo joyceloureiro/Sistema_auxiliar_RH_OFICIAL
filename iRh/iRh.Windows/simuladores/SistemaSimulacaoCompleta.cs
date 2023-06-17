@@ -27,23 +27,58 @@ namespace iRh.Windows.simuladores
                 try
                 {
                     var salario = double.Parse(txtSalarioBaseSC.Text);
-                    var horasNoturnasTrabalhadas = double.Parse(txtHorasNoturnasMesSC.Text);
+                    var horasNoturnasTrabalhadasMes = double.Parse(txtHorasNoturnasMesSC.Text);
                     var horasExtrasTrabalhadasMes = double.Parse(txtHorasExtrasTrabalhadasMesSc.Text);
-                    var cargaHorariaMes = double.Parse(txtCargaHoraria.Text);
+                    var horasTrabalhadasMes = double.Parse(txtCargaHoraria.Text);
 
-                    var valorAdicionalNoturno = AdicionalNoturno.calculaAD(salario, horasNoturnasTrabalhadas, cargaHorariaMes);
-                    var valorHoraExtra = HoraExtra.calculaHoraExtra(salario, horasExtrasTrabalhadasMes, cargaHorariaMes);
+                    var valorAdicionalNoturno = AdicionalNoturno.calculaAD(salario, horasNoturnasTrabalhadasMes, horasTrabalhadasMes);
+
+                    var valorHoraExtra = HoraExtra.CalculaHoraExtra(salario, horasExtrasTrabalhadasMes, horasTrabalhadasMes);
                     
-
                     var descontoInss = Inss.Calcula(salario);
                     var valorIrrf = Irrf.CalculaIrrf(salario);
                     var valorFgts = Fgts.calculaFgts(salario);
 
                     var salarioComAdicionais = salario + valorAdicionalNoturno + valorHoraExtra;
-                    var salarioComDescontos = salarioComAdicionais - valorIrrf - descontoInss - valorFgts;
+                    var salarioComDescontos = valorIrrf - descontoInss - valorFgts;
+                    var salarioLiquido = salarioComAdicionais - valorIrrf - descontoInss - valorFgts;
+                                       
 
-                    lblMostrarResultadoSimulacaoCompleta.Text = "valor salario liquído: " + salarioComDescontos.ToString("C");
-                    lblMostrarResultadoSimulacaoCompleta.Visible = true;
+                    lblMostrarHEEntrada.Text = "Horas Extras: " + horasExtrasTrabalhadasMes.ToString("C");
+                    lblMostrarNotEntrada.Text = "Horas Noturnas: " + horasNoturnasTrabalhadasMes.ToString("C");
+                    lblMostrarSalBrtEntrada.Text = "valor salario Bruto: " + salario.ToString("C");
+
+                    lblFgtsDepResultado.Text = "FGTS (Deposito): " + valorAdicionalNoturno.ToString("C");
+                    lblHoraExrResultado.Text = "Hora Extra: " + valorHoraExtra.ToString("C");
+                    lblInssResultado.Text = "INSS: " + descontoInss.ToString("C");
+                    lblIrrfResultado.Text = "IRRF: " + valorIrrf.ToString("C");
+                    lblNortResultado.Text = "Adicional Noturno: " + valorAdicionalNoturno.ToString("C");
+                    lblPercResultado.Text = "Adicional Periculosidade: " + 0.ToString("C");
+                    lblVtResultado.Text = "Desconto Vale transporte: " + 0.ToString("C");
+                    lblSalarioResultado.Text = "valor salario Bruto: " + salario.ToString("C");
+
+                    lblTotalAdicResultado.Text = "Total Adicionais: " + salarioComAdicionais.ToString("C");
+                    lblTotalDescResultado.Text = "Total Descontos: " + salarioComDescontos.ToString("C");
+                    lblSalarioLiquidResultado.Text = "Salario Liquido: " + salarioLiquido.ToString("C");
+
+
+                    lblMostrarHEEntrada.Visible = true;
+                    lblMostrarNotEntrada.Visible = true;
+                    lblMostrarSalBrtEntrada.Visible = true;
+
+                    lblFgtsDepResultado.Visible = true;
+                    lblHoraExrResultado.Visible = true;
+                    lblInssResultado.Visible = true;
+                    lblIrrfResultado.Visible = true;
+                    lblNortResultado.Visible = true;
+                    lblPercResultado.Visible = true;
+                    lblVtResultado.Visible = true;
+                    lblSalarioResultado.Visible = true;
+
+                    lblTotalAdicResultado.Visible = true;
+                    lblTotalDescResultado.Visible = true;
+                    lblSalarioLiquidResultado.Visible = true;
+
 
                 }
                 catch (Exception)
@@ -75,13 +110,13 @@ namespace iRh.Windows.simuladores
                 try
                 {
                     var salario = double.Parse(txtSalarioBaseSC.Text);
-                    var horasNoturnasTrabalhadas = double.Parse(txtHorasNoturnasMesSC.Text);
+                    var horasNoturnasTrabalhadasMes = double.Parse(txtHorasNoturnasMesSC.Text);
                     var horasExtrasTrabalhadasMes = double.Parse(txtHorasExtrasTrabalhadasMesSc.Text);
-                    var cargaHorariaMes = double.Parse(txtCargaHoraria.Text);
+                    var horasTrabalhadasMes = double.Parse(txtCargaHoraria.Text);
 
 
-                    var valorAdicionalNoturno = AdicionalNoturno.calculaAD(salario, horasNoturnasTrabalhadas, cargaHorariaMes);
-                    var valorHoraExtra = HoraExtra.calculaHoraExtra(salario, horasExtrasTrabalhadasMes, cargaHorariaMes);
+                    var valorAdicionalNoturno = AdicionalNoturno.calculaAD(salario, horasNoturnasTrabalhadasMes, horasTrabalhadasMes);
+                    var valorHoraExtra = HoraExtra.calculaHoraExtra(salario, horasExtrasTrabalhadasMes, horasTrabalhadasMes);
                     var valorAdicionalPericulosidade = Periculosidade.calculaPericulosidade(salario);
                     var valorValeTransporte = ValeTransporte.calculaVT(salario);
 
@@ -90,10 +125,43 @@ namespace iRh.Windows.simuladores
                     var valorFgts = Fgts.calculaFgts(salario);
 
                     var salarioComAdicionais = salario + valorAdicionalNoturno + valorHoraExtra + valorAdicionalPericulosidade;
-                    var salarioComDescontos = salarioComAdicionais - valorIrrf - descontoInss - valorFgts;
+                    var salarioComDescontos = valorIrrf - descontoInss - valorFgts;
+                    var salarioLiquido = salarioComAdicionais - valorIrrf - descontoInss - valorFgts;
 
-                    lblMostrarResultadoSimulacaoCompleta.Text = "valor salario liquído: " + salarioComDescontos.ToString("C");
-                    lblMostrarResultadoSimulacaoCompleta.Visible = true;
+                    lblMostrarHEEntrada.Text = "Horas Extras: " + horasExtrasTrabalhadasMes.ToString("C");
+                    lblMostrarNotEntrada.Text = "Horas Noturnas: " + horasNoturnasTrabalhadasMes.ToString("C");
+                    lblMostrarSalBrtEntrada.Text = "valor salario Bruto: " + salario.ToString("C");
+
+                    lblFgtsDepResultado.Text = "FGTS (Deposito): " + valorAdicionalNoturno.ToString("C");
+                    lblHoraExrResultado.Text = "Hora Extra: " + valorHoraExtra.ToString("C");
+                    lblInssResultado.Text = "INSS: " + descontoInss.ToString("C");
+                    lblIrrfResultado.Text = "IRRF: " + valorIrrf.ToString("C");
+                    lblNortResultado.Text = "Adicional Noturno: " + valorAdicionalNoturno.ToString("C");
+                    lblPercResultado.Text = "Adicional Periculosidade: " + valorAdicionalPericulosidade.ToString("C");
+                    lblVtResultado.Text = "Desconto Vale transporte: " + 0.ToString("C");
+                    lblSalarioResultado.Text = "valor salario Bruto: " + salario.ToString("C");
+
+                    lblTotalAdicResultado.Text = "Total Adicionais: " + salarioComAdicionais.ToString("C");
+                    lblTotalDescResultado.Text = "Total Descontos: " + salarioComDescontos.ToString("C");
+                    lblSalarioLiquidResultado.Text = "Salario Liquido: " + salarioLiquido.ToString("C");
+
+
+                    lblMostrarHEEntrada.Visible = true;
+                    lblMostrarNotEntrada.Visible = true;
+                    lblMostrarSalBrtEntrada.Visible = true;
+
+                    lblFgtsDepResultado.Visible = true;
+                    lblHoraExrResultado.Visible = true;
+                    lblInssResultado.Visible = true;
+                    lblIrrfResultado.Visible = true;
+                    lblNortResultado.Visible = true;
+                    lblPercResultado.Visible = true;
+                    lblVtResultado.Visible = true;
+                    lblSalarioResultado.Visible = true;
+
+                    lblTotalAdicResultado.Visible = true;
+                    lblTotalDescResultado.Visible = true;
+                    lblSalarioLiquidResultado.Visible = true;
 
                 }
                 catch (Exception)
@@ -125,12 +193,12 @@ namespace iRh.Windows.simuladores
                 try
                 {
                     var salario = double.Parse(txtSalarioBaseSC.Text);
-                    var horasNoturnasTrabalhadas = double.Parse(txtHorasNoturnasMesSC.Text);
+                    var horasNoturnasTrabalhadasMes = double.Parse(txtHorasNoturnasMesSC.Text);
                     var horasExtrasTrabalhadasMes = double.Parse(txtHorasExtrasTrabalhadasMesSc.Text);
-                    var cargaHorariaMes = double.Parse(txtCargaHoraria.Text);
+                    var horasTrabalhadasMes = double.Parse(txtCargaHoraria.Text);
 
-                    var valorAdicionalNoturno = AdicionalNoturno.calculaAD(salario, horasNoturnasTrabalhadas, cargaHorariaMes);
-                    var valorHoraExtra = HoraExtra.calculaHoraExtra(salario, horasExtrasTrabalhadasMes, cargaHorariaMes);
+                    var valorAdicionalNoturno = AdicionalNoturno.calculaAD(salario, horasNoturnasTrabalhadasMes, horasTrabalhadasMes);
+                    var valorHoraExtra = HoraExtra.calculaHoraExtra(salario, horasExtrasTrabalhadasMes, horasTrabalhadasMes);
                     var valorAdicionalPericulosidade = Periculosidade.calculaPericulosidade(salario);
                     var valorValeTransporte = ValeTransporte.calculaVT(salario);
 
@@ -139,10 +207,44 @@ namespace iRh.Windows.simuladores
                     var valorFgts = Fgts.calculaFgts(salario);
 
                     var salarioComAdicionais = salario + valorAdicionalNoturno + valorHoraExtra + valorValeTransporte + valorAdicionalPericulosidade;
-                    var salarioComDescontos = salarioComAdicionais - valorIrrf - descontoInss - valorFgts;
+                    var salarioComDescontos =  valorIrrf - descontoInss - valorFgts;
+                    var salarioLiquido = salarioComAdicionais - valorIrrf - descontoInss - valorFgts;
 
-                    lblMostrarResultadoSimulacaoCompleta.Text = "valor salario liquído: " + salarioComDescontos.ToString("C");
-                    lblMostrarResultadoSimulacaoCompleta.Visible = true;
+
+                    lblMostrarHEEntrada.Text = "Horas Extras: " + horasExtrasTrabalhadasMes.ToString("C");
+                    lblMostrarNotEntrada.Text = "Horas Noturnas: " + horasNoturnasTrabalhadasMes.ToString("C");
+                    lblMostrarSalBrtEntrada.Text = "valor salario Bruto: " + salario.ToString("C");
+
+                    lblFgtsDepResultado.Text = "FGTS (Deposito): " + valorAdicionalNoturno.ToString("C");
+                    lblHoraExrResultado.Text = "Hora Extra: " + valorHoraExtra.ToString("C");
+                    lblInssResultado.Text = "INSS: " + descontoInss.ToString("C");
+                    lblIrrfResultado.Text = "IRRF: " + valorIrrf.ToString("C");
+                    lblNortResultado.Text = "Adicional Noturno: " + valorAdicionalNoturno.ToString("C");
+                    lblPercResultado.Text = "Adicional Periculosidade: " + valorAdicionalPericulosidade.ToString("C");
+                    lblVtResultado.Text = "Desconto Vale transporte: " + valorValeTransporte.ToString("C");
+                    lblSalarioResultado.Text = "valor salario Bruto: " + salario.ToString("C");
+
+                    lblTotalAdicResultado.Text = "Total Adicionais: " + salarioComAdicionais.ToString("C");
+                    lblTotalDescResultado.Text = "Total Descontos: " + salarioComDescontos.ToString("C");
+                    lblSalarioLiquidResultado.Text = "Salario Liquido: " + salarioLiquido.ToString("C");
+
+
+                    lblMostrarHEEntrada.Visible = true;
+                    lblMostrarNotEntrada.Visible = true;
+                    lblMostrarSalBrtEntrada.Visible = true;
+
+                    lblFgtsDepResultado.Visible = true;
+                    lblHoraExrResultado.Visible = true;
+                    lblInssResultado.Visible = true;
+                    lblIrrfResultado.Visible = true;
+                    lblNortResultado.Visible = true;
+                    lblPercResultado.Visible = true;
+                    lblVtResultado.Visible = true;
+                    lblSalarioResultado.Visible = true;
+
+                    lblTotalAdicResultado.Visible = true;
+                    lblTotalDescResultado.Visible = true;
+                    lblSalarioLiquidResultado.Visible = true;
 
                 }
                 catch (Exception)
@@ -174,12 +276,12 @@ namespace iRh.Windows.simuladores
                 try
                 {
                     var salario = double.Parse(txtSalarioBaseSC.Text);
-                    var horasNoturnasTrabalhadas = double.Parse(txtHorasNoturnasMesSC.Text);
+                    var horasNoturnasTrabalhadasMes = double.Parse(txtHorasNoturnasMesSC.Text);
                     var horasExtrasTrabalhadasMes = double.Parse(txtHorasExtrasTrabalhadasMesSc.Text);
-                    var cargaHorariaMes = double.Parse(txtCargaHoraria.Text);
+                    var horasTrabalhadasMes = double.Parse(txtCargaHoraria.Text);
 
-                    var valorAdicionalNoturno = AdicionalNoturno.calculaAD(salario, horasNoturnasTrabalhadas, cargaHorariaMes);
-                    var valorHoraExtra = HoraExtra.calculaHoraExtra(salario, horasExtrasTrabalhadasMes, cargaHorariaMes);
+                    var valorAdicionalNoturno = AdicionalNoturno.calculaAD(salario, horasNoturnasTrabalhadasMes, horasTrabalhadasMes);
+                    var valorHoraExtra = HoraExtra.calculaHoraExtra(salario, horasExtrasTrabalhadasMes, horasTrabalhadasMes);
                     var valorValeTransporte = ValeTransporte.calculaVT(salario);
 
                     var descontoInss = Inss.Calcula(salario);
@@ -187,10 +289,44 @@ namespace iRh.Windows.simuladores
                     var valorFgts = Fgts.calculaFgts(salario);
 
                     var salarioComAdicionais = salario + valorAdicionalNoturno + valorHoraExtra + valorValeTransporte;
-                    var salarioComDescontos = salarioComAdicionais - valorIrrf - descontoInss - valorFgts;
+                    var salarioComDescontos =  valorIrrf - descontoInss - valorFgts;
+                    var salarioLiquido = salarioComAdicionais - valorIrrf - descontoInss - valorFgts;
 
-                    lblMostrarResultadoSimulacaoCompleta.Text = "valor salario liquído: " + salarioComDescontos.ToString("C");
-                    lblMostrarResultadoSimulacaoCompleta.Visible = true;
+        
+
+                    lblMostrarHEEntrada.Text = "Horas Extras: " + txtHorasExtrasTrabalhadasMesSc;
+                    lblMostrarNotEntrada.Text = "Horas Noturnas: " + txtHorasNoturnasMesSC;
+                    lblMostrarSalBrtEntrada.Text = "valor salario Bruto: " + txtSalarioBaseSC;
+                    
+                    lblFgtsDepResultado.Text = "FGTS (Deposito): " + valorAdicionalNoturno.ToString("C");
+                    lblHoraExrResultado.Text = "Hora Extra: " + valorHoraExtra.ToString("C");
+                    lblInssResultado.Text = "INSS: " + descontoInss.ToString("C");
+                    lblIrrfResultado.Text = "IRRF: " + valorIrrf.ToString("C");
+                    lblNortResultado.Text = "Adicional Noturno: " + valorAdicionalNoturno.ToString("C");
+                    lblPercResultado.Text = "Adicional Periculosidade: " + 0.ToString("C");
+                    lblSalarioResultado.Text = "valor salario Bruto: " + salario.ToString("C");
+
+                    lblTotalAdicResultado.Text = "Total Adicionais: " + salarioComAdicionais.ToString("C");
+                    lblTotalDescResultado.Text = "Total Descontos: " + salarioComDescontos.ToString("C");
+                    lblSalarioLiquidResultado.Text = "Salario Liquido: " + salarioLiquido.ToString("C");
+
+
+                    lblMostrarHEEntrada.Visible = true;
+                    lblMostrarNotEntrada.Visible = true;
+                    lblMostrarSalBrtEntrada.Visible = true;
+
+                    lblFgtsDepResultado.Visible = true;
+                    lblHoraExrResultado.Visible = true;
+                    lblInssResultado.Visible = true;
+                    lblIrrfResultado.Visible = true;
+                    lblNortResultado.Visible = true;
+                    lblPercResultado.Visible = true;
+                    lblVtResultado.Visible = true;
+                    lblSalarioResultado.Visible = true;
+
+                    lblTotalAdicResultado.Visible = true;
+                    lblTotalDescResultado.Visible = true;
+                    lblSalarioLiquidResultado.Visible = true;
 
                 }
                 catch (Exception)
@@ -212,8 +348,9 @@ namespace iRh.Windows.simuladores
             panelResultadoSimulacaoCompleta.Show();
 
         }
-                
-         }
+
+       
+    }
         }
     
     

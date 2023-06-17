@@ -173,5 +173,10 @@ namespace iRh.Windows.cadastro
 
             System.Diagnostics.Process.Start("https://api.whatsapp.com/send?phone=" + ddd + numero + "&text=ol%C3%A1%20amigo%20");
         }
+
+        private void btnImagemWhatszap_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
